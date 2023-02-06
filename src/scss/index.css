@@ -12,4 +12,19 @@ code {
 
 h1 {
   color: whitesmoke;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid rgb(53, 154, 152);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  line-height: 1.6rem;
 }/*# sourceMappingURL=index.css.map */
