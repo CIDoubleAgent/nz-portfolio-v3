@@ -4,7 +4,7 @@
   border: $base-border-thickness solid $base-border-color;
   box-shadow: $base-box-shadow;
 
-  .card-title {
+  .card header h1 {
     font-size: $base-font-size;
     padding-bottom: $base-padding;
     font-weight: bold;
