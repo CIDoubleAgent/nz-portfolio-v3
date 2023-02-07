@@ -1,47 +1,46 @@
-
 nav {
-    display: flex;
-    align-items: center;
-    border-right: solid 2px rgba($color: #00ffe5, $alpha: 1.0);
+  display: flex;
+  align-items: center;
+  border-right: solid 2px rgba($color: #00ffe5, $alpha: 1.0);
 }
 
 nav ul {
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-block-start:0;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-block-start: 0;
 }
 
 nav ul li {
-    list-style: none;
-    color: black;
-    background-color: whitesmoke;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    padding: 1rem;
-    text-align: center;
-    font-size: 2em;
+  list-style: none;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2em;
 }
 
 nav ul li svg {
-    position: relative;
-    top: -7px;
-}
+  position: relative;
+  top: -7px;
 
-.home-icon svg {
+  .home-icon svg {
     left: -1.5px;
-}
+  }
 
-.about-icon svg {
+  .about-icon svg {
     left: -.1px;
-}
+  }
 
-.contact-icon svg {
+  .contact-icon svg {
     top: -4.5px;
-}
+  }
 
-.resume-icon svg {
+  .resume-icon svg {
     left: .5px;
+  }
 }

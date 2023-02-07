@@ -49,31 +49,28 @@ nav ul li svg {
   position: relative;
   top: -7px;
 }
-
-.home-icon svg {
+nav ul li svg .home-icon svg {
   left: -1.5px;
 }
-
-.about-icon svg {
+nav ul li svg .about-icon svg {
   left: -0.1px;
 }
-
-.contact-icon svg {
+nav ul li svg .contact-icon svg {
   top: -4.5px;
 }
-
-.resume-icon svg {
+nav ul li svg .resume-icon svg {
   left: 0.5px;
 }
 
 .card {
-  display: block;
   padding: 0.75rem;
   border: 1px solid rgb(53, 154, 152);
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.card .card header h1 {
-  font-size: 1rem;
+.card .card-header {
+  text-align: center;
+}
+.card .card-header h1 {
   padding-bottom: 0.75rem;
   font-weight: bold;
 }
