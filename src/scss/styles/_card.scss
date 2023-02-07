@@ -2,17 +2,20 @@
   padding: $base-padding;
   border: $base-border-thickness solid $base-border-color;
   box-shadow: $base-box-shadow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .card-header {
     text-align: center;
-  }
-
-  .card-header h1 {
-    padding-bottom: $base-padding;
-    font-weight: bold;
+    font-size: $header-font-size;
   }
 
   .card-body {
     line-height: $base-line-height;
+  }
+
+  .card-body img {
+    height: 60vh;
   }
 }
