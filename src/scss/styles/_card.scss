@@ -7,15 +7,16 @@
   align-items: center;
 
   .card-header {
-    text-align: center;
     font-size: $header-font-size;
   }
 
   .card-body {
+    font-size: $base-font-size;
     line-height: $base-line-height;
-  }
-
-  .card-body img {
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 60vw;
   }
 }

@@ -1,16 +1,19 @@
-nav {
+.navigation {
+  z-index: 10;
+  position: fixed;
+  height: 100vh;
   display: flex;
   align-items: center;
+  background-color: $primary;
 }
 
 nav ul {
   height: 80%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-block-start: 0;
-  padding-inline-start: 0;
+  padding-inline: 2em;
 }
 
 nav ul li {

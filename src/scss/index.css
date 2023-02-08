@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,26 +14,54 @@ code {
 }
 
 main {
-  display: grid;
-  grid-template: 1fr/9rem 1fr;
+  display: flex;
   height: 100vh;
+  justify-content: center;
 }
 
-nav {
+.content-wrapper {
   display: flex;
   align-items: center;
 }
 
+.card {
+  padding: 0.75rem;
+  border: 1px solid rgb(53, 154, 152);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .card-header {
+  font-size: 2rem;
+}
+.card .card-body {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  max-width: 60vw;
+}
+
+.navigation {
+  z-index: 10;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
 nav ul {
   height: 80%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   -webkit-margin-before: 0;
           margin-block-start: 0;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  padding-inline: 2em;
 }
 
 nav ul li {
@@ -46,21 +75,6 @@ nav ul li svg {
   top: -7px;
 }
 
-.card {
-  padding: 0.75rem;
-  border: 1px solid rgb(53, 154, 152);
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.card .card-header {
-  text-align: center;
-  font-size: 2rem;
-}
-.card .card-body {
-  line-height: 1.6rem;
-}
-.card .card-body img {
-  height: 60vh;
+.card-body img {
+  width: 240px;
 }/*# sourceMappingURL=index.css.map */
