@@ -1,10 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFile, faFolder, faHouse, faMessage, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faComment, faFile, faFolder, faHouse, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Navigation = () => {
   return (
-    <nav>
+    <nav className='navigation'>
 
       <ul>
 
@@ -19,13 +19,13 @@ const Navigation = () => {
         <li className='portfolio-icon'>
         <FontAwesomeIcon icon={faFolder} />
         </li>
-     
-        <li className='contact-icon'>
-          <FontAwesomeIcon icon={faMessage} />
-        </li>
       
         <li className='resume-icon'>
           <FontAwesomeIcon icon={faFile} />
+        </li>
+     
+        <li className='contact-icon'>
+          <FontAwesomeIcon icon={faComment} />
         </li>
 
       </ul>
