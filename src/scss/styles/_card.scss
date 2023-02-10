@@ -1,22 +1,22 @@
 .card {
-  padding: $base-padding;
-  border: $base-border-thickness solid $base-border-color;
   box-shadow: $base-box-shadow;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  padding-inline: $base-padding;
+  margin-inline: $base-margin;
 
   .card-header {
     font-size: $header-font-size;
   }
 
   .card-body {
-    font-size: $base-font-size;
-    line-height: $base-line-height;
+    padding: 20px 100px 20px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: center;
-    max-width: 60vw;
+    max-width: 800px;
   }
 }
