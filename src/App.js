@@ -3,7 +3,7 @@ import Navigation from "./components/Navigation";
 import About from "./pages/About";
 // import Portfolio from "./pages/Portfolio";
 // import Contact from "./pages/Contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
           <About/>
           {/* <Portfolio/> */}
           {/* <Contact/> */}
-          {/* <Footer/> */}
         </div>
+          <Footer/>
       </main>
       
     </div>
