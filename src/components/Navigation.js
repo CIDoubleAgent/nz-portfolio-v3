@@ -9,23 +9,23 @@ const Navigation = () => {
       <ul>
 
         <li>
-          <i className='home-link' ><FontAwesomeIcon icon={faHouse} /></i>
+          <a className='home-link' ><FontAwesomeIcon icon={faHouse} /></a>
         </li>
       
         <li>
-          <i className='about-link' ><FontAwesomeIcon icon={faUser} /></i>
+          <a className='about-link' ><FontAwesomeIcon icon={faUser} /></a>
         </li>
       
         <li>
-          <i className='portfolio-link' ><FontAwesomeIcon icon={faFolder} /></i>
+          <a className='portfolio-link' ><FontAwesomeIcon icon={faFolder} /></a>
         </li>
       
         <li>
-          <i className='resume-link' ><FontAwesomeIcon icon={faFile} /></i>
+          <a className='resume-link' ><FontAwesomeIcon icon={faFile} /></a>
         </li>
      
         <li>
-          <i className='contact-link' ><FontAwesomeIcon icon={faComment} /></i>
+          <a className='contact-link' ><FontAwesomeIcon icon={faComment} /></a>
         </li>
 
       </ul>
