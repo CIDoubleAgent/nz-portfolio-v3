@@ -4,28 +4,28 @@ import { faComment, faFile, faFolder, faHouse, faUser } from '@fortawesome/free-
 
 const Navigation = () => {
   return (
-    <nav className='navigation'>
+    <nav>
 
       <ul>
 
-        <li className='home-icon'>
-          <FontAwesomeIcon icon={faHouse} />
+        <li>
+          <i className='home-link' ><FontAwesomeIcon icon={faHouse} /></i>
         </li>
       
-        <li className='about-icon'>
-          <FontAwesomeIcon icon={faUser} />
+        <li>
+          <i className='about-link' ><FontAwesomeIcon icon={faUser} /></i>
         </li>
       
-        <li className='portfolio-icon'>
-        <FontAwesomeIcon icon={faFolder} />
+        <li>
+          <i className='portfolio-link' ><FontAwesomeIcon icon={faFolder} /></i>
         </li>
       
-        <li className='resume-icon'>
-          <FontAwesomeIcon icon={faFile} />
+        <li>
+          <i className='resume-link' ><FontAwesomeIcon icon={faFile} /></i>
         </li>
      
-        <li className='contact-icon'>
-          <FontAwesomeIcon icon={faComment} />
+        <li>
+          <i className='contact-link' ><FontAwesomeIcon icon={faComment} /></i>
         </li>
 
       </ul>
