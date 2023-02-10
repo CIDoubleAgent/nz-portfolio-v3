@@ -4,8 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding-inline: $base-padding;
-  margin-inline: $base-margin;
+  width: 100%;
 
   .card-header {
     font-size: $header-font-size;
