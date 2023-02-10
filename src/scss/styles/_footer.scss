@@ -1,4 +1,15 @@
 
-footer {
+.footer {
+    display: flex;
+    justify-content: center;
     color: $font-primary;
+    padding: $base-padding 0 $base-padding 0;
+    width: 100%;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
 }
