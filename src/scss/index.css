@@ -19,33 +19,37 @@ main {
   justify-content: center;
 }
 
+i {
+  font-style: normal;
+}
+
 .content-wrapper {
   display: flex;
   align-items: center;
 }
 
 .card {
-  padding: 0.75rem;
-  border: 1px solid rgb(53, 154, 152);
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  padding-inline: 0.75rem;
+  margin-inline: 2rem;
 }
 .card .card-header {
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 .card .card-body {
-  font-size: 1.5rem;
-  line-height: 1.6rem;
+  padding: 20px 100px 20px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-self: center;
-  max-width: 60vw;
+  max-width: 800px;
 }
 
-.navigation {
+nav {
   z-index: 10;
   position: fixed;
   height: 100vh;
@@ -55,13 +59,15 @@ main {
 }
 
 nav ul {
-  height: 80%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   -webkit-margin-before: 0;
           margin-block-start: 0;
   padding-inline: 2em;
+  position: relative;
+  top: 1.1rem;
 }
 
 nav ul li {
@@ -70,11 +76,67 @@ nav ul li {
   font-size: 3em;
 }
 
-nav ul li svg {
-  position: relative;
-  top: -7px;
+.home-link::after {
+  display: block;
+  content: "Home";
+  font-size: 1rem;
+  visibility: hidden;
 }
 
-.card-body img {
-  width: 240px;
+.home-link:hover::after {
+  visibility: visible;
+}
+
+.about-link::after {
+  display: block;
+  content: "About";
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+.about-link:hover::after {
+  visibility: visible;
+}
+
+.portfolio-link::after {
+  display: block;
+  content: "Portfolio";
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+.portfolio-link:hover::after {
+  visibility: visible;
+}
+
+.resume-link::after {
+  display: block;
+  content: "Resume";
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+.resume-link:hover::after {
+  visibility: visible;
+}
+
+.contact-link::after {
+  display: block;
+  content: "Contact";
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+.contact-link:hover::after {
+  visibility: visible;
+}
+
+.card img {
+  width: 300px;
+}
+
+.about-content {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 0;
 }/*# sourceMappingURL=index.css.map */
