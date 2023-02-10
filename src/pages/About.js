@@ -4,12 +4,15 @@ const About = () => {
   return (
     <section className='card'>
       <header className='card-header'>
-        <h1>About Me</h1>
+        About Me
       </header>
+
+      <img alt='profile' src='https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/profile/profilePicMe_1.jpg?raw=true'>
+      </img>
+
       <article className='card-body'>
-        <img alt='profile' src='https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/profile/profilePicMe_1.jpg?raw=true'></img>
-        <p>
-          About me text goes here asdfa sdf adf asdf asfas dfsdf asf jklhk lhjk sdf adsf asdf asdf dsfg fgdh hgj jhk ghjkl hgjkll kjh hjk ghjk hgjk ghjk hjkg hjgk ghjk hgjk hjk hjk ghjk ghjk jhgk hjkg hgjk ghjk hgjk ghjk ghjk ghjk ghjk ghjk ghjk gh jkgh kghk jgh jkghjk gh jkgh
+        <p className='about-content'>
+          I am a web developer from Dover New Hampshire and have been a carpenter by trade for most of my career. My hobbies include hiking the many beautiful trails and mountains of New Hampshire, playing basketball, wakeboarding, enjoying craft beer, and poking holes in movie plots.
         </p>
       </article>
     </section>
