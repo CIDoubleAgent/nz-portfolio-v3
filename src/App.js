@@ -20,7 +20,7 @@ function App() {
           {/* <Portfolio/> */}
           {/* <Contact/> */}
         </div>
-          <Footer/>
+      <Footer/>
       </main>
       
     </div>
