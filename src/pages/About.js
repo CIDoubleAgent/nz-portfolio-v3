@@ -6,7 +6,7 @@ const About = () => {
       <img className='card-background' alt='computer background' src='https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/Project%20Images/clean-setup_1.jpg?raw=true'>
       </img>
 
-      <div className='card profile-card'>
+      <div className='card about-card'>
         <header className='card-header'>
           About Me
         </header>
@@ -20,6 +20,7 @@ const About = () => {
           </p>
         </article>
       </div>
+
     </section>
   )
 }

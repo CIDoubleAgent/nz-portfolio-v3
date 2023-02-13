@@ -1,19 +1,18 @@
 .about-wrapper {
+  grid-area: 2 / 2;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 
-.profile-card img {
+.about-card img {
   width: calc(200px + 4vw);
   border-radius: 7%;
   float: left;
   margin-right: $base-margin;
-  // filter: grayscale(60%);
 }
 
-.profile-card p {
+.about-card p {
   margin-block: 0;
+  padding: 0;
   font-size: $base-font-size;
-  padding: 0 0 0 0;
-  width: 100%;
 }
