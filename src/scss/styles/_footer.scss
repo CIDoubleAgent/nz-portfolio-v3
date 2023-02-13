@@ -2,14 +2,17 @@
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: $font-primary;
-    padding: $base-padding 0 $base-padding 0;
     width: 100%;
+    height: 10vh;
 }
 
 .footer ul {
+    padding-inline: 0;
     list-style: none;
     display: flex;
     justify-content: space-around;
     width: 33%;
+    font-size: $base-font-size;
 }

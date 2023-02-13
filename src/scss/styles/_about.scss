@@ -1,16 +1,19 @@
-.card img {
-    width: 300px;
+.about-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
-.about-content {
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    padding-inline: 10%
-  }
+.profile-card img {
+  width: calc(200px + 4vw);
+  border-radius: 7%;
+  float: left;
+  margin-right: $base-margin;
+  // filter: grayscale(60%);
+}
 
-// .about-content::first-letter {
-//     font-size: 2.5rem;
-//     border: 1px solid $secondary;
-//     border-radius: 15%;
-//     padding: 0 12px 5px 12px;
-// }
+.profile-card p {
+  margin-block: 0;
+  font-size: $base-font-size;
+  padding: 0 0 0 0;
+  width: 100%;
+}

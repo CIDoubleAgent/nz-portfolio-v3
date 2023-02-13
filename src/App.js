@@ -12,17 +12,17 @@ function App() {
       <header className="App-header">
       </header>
 
-        <Navigation/>
+      <Navigation />
+
       <main>
-        <div className="content-wrapper">
-          {/* <Home/> */}
-          <About/>
-          {/* <Portfolio/> */}
-          {/* <Contact/> */}
-        </div>
-      <Footer/>
+        {/* <Home/> */}
+        <About />
+        {/* <Portfolio/> */}
+        {/* <Contact/> */}
       </main>
       
+      <Footer />
+
     </div>
   );
 }

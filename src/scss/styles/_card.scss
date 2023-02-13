@@ -1,21 +1,24 @@
 .card {
-  box-shadow: $base-box-shadow;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
+  margin: $base-margin 0 $base-margin 0;
+  margin-inline: 10vw;
+  max-width: 60%;
 
   .card-header {
     font-size: $header-font-size;
+    line-height: 1;
+    margin-bottom: $base-margin;
   }
+}
 
-  .card-body {
-    padding: 20px 100px 20px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    max-width: 800px;
-  }
+.card-background {
+  object-fit: cover;
+  position: fixed;
+  z-index: -10;
+  opacity: .37;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }

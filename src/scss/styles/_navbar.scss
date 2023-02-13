@@ -1,80 +1,58 @@
 nav {
   z-index: 10;
   position: fixed;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
-  background-color: $primary;
 }
 
 nav ul {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-block-start: 0;
-  padding-inline: 2em;
+  padding-inline: 1em;
   position: relative;
-  top: 1.1rem;
+  margin: 0 20px 0 20px;
+  background-color: $primary;
+  border-radius: 15px;
+  border: 2px solid $base-border-color;
 }
 
 nav li {
   list-style: none;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
+}
+
+.hover::after {
+  display: block;
+  font-size: $link-font-size;
+  opacity: 0;
+  transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover:hover::after {
+  opacity: 1;
 }
 
 .home-link::after {
-  display: block;
   content: "Home";
-  font-size: $link-font-size;
-  visibility: hidden;
-}
-
-.home-link:hover::after {
-  visibility: visible;
 }
 
 .about-link::after {
-  display: block;
-  content: "About";
-  font-size: $link-font-size;
-  visibility: hidden;
-}
-
-.about-link:hover::after {
-  visibility: visible;
+  content: "About Me";
 }
 
 .portfolio-link::after {
-  display: block;
   content: "Portfolio";
-  font-size: $link-font-size;
-  visibility: hidden;
-}
-
-.portfolio-link:hover::after {
-  visibility: visible;
 }
 
 .resume-link::after {
-  display: block;
   content: "Resume";
-  font-size: $link-font-size;
-  visibility: hidden;
-}
-
-.resume-link:hover::after {
-  visibility: visible;
 }
 
 .contact-link::after {
-  display: block;
   content: "Contact";
-  font-size: $link-font-size;
-  visibility: hidden;
-}
-
-.contact-link:hover::after {
-  visibility: visible;
 }
