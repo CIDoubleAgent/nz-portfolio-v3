@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
 
+      
       <main>
       <Navigation />
         {/* <Home/> */}
@@ -17,7 +18,6 @@ function App() {
         {/* <Contact/> */}
       <Footer />
       </main>
-      
 
     </div>
   );

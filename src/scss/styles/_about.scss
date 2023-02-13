@@ -2,13 +2,16 @@
   grid-area: 2 / 2;
   display: flex;
   align-items: center;
+  justify-self: center;
+  max-width: 1000px;
 }
 
 .about-card img {
-  width: calc(200px + 4vw);
-  border-radius: 7%;
+  width: calc(150px + 10vw);
+  border-radius: 15px;
   float: left;
-  margin-right: $base-margin;
+  margin-right: .75rem;
+  border: solid 2px $base-border-color;
 }
 
 .about-card p {
