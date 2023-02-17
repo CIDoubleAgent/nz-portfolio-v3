@@ -4,9 +4,17 @@ $secondary: whitesmoke;
 $accent: rgb(0, 214, 164);
 $font-primary: rgb(108, 0, 231);
 $font-secondary: whitesmoke;
+$gradient-primary: (
+  background-image: linear-gradient(to right top,
+    #3400c4,
+    #5500c4,
+    #7f00b5,
+    #b800bb,
+    #ee0087)
+);
 
 // spacing
-$base-padding: .75rem;
+$base-padding: 1rem;
 $base-margin: 2rem;
 
 // borders
@@ -15,7 +23,7 @@ $base-border-thickness: 1px;
 $base-border-radius: 20px;
 
 // box shadow
-$base-box-shadow: 1px 3px 7px 0px rgba(0,0,0,0.75);
+$base-box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
 
 // font sizes
 $base-font-size: calc(.75rem + .75vw);

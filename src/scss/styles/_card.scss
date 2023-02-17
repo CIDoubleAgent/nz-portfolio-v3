@@ -1,6 +1,7 @@
 .card {
   background-color: $secondary;
   border: solid 2px $base-border-color;
+  box-shadow: $base-box-shadow;
   margin: $base-margin 0 $base-margin 0;
   display: flex;
   flex-direction: column;

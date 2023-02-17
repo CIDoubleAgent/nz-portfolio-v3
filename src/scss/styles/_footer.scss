@@ -1,6 +1,7 @@
 
 .footer {
     background-color: $primary;
+    background-image: $primary;
     grid-column: 1 / 4;
     grid-row: 3 / 4;
     display: flex;
@@ -15,7 +16,7 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 33%;
+    width: 50%;
     font-size: $base-font-size;
 }
 

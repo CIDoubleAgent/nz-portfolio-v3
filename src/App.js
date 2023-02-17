@@ -1,5 +1,5 @@
 import Navigation from "./components/Navigation";
-// import Home from "./pages/Home";
+// import Hero from "./pages/Hero";
 import About from "./pages/About";
 // import Portfolio from "./pages/Portfolio";
 // import Contact from "./pages/Contact";
@@ -9,14 +9,14 @@ function App() {
   return (
     <div className="App">
 
-      
+
       <main>
-      <Navigation />
-        {/* <Home/> */}
+        {/* <Hero/> */}
+        <Navigation />
         <About />
         {/* <Portfolio/> */}
         {/* <Contact/> */}
-      <Footer />
+        <Footer />
       </main>
 
     </div>
