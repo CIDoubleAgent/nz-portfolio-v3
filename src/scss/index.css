@@ -12,9 +12,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(39, 41, 50);
-  color: rgb(77, 126, 168);
-  height: 200vh;
+  background-color: #272932;
+  color: #fffffb;
+  width: 100%;
 }
 
 code {
@@ -26,17 +26,50 @@ li {
 }
 
 a {
+  color: #fffffb;
   text-decoration: none;
 }
 
+header ul {
+  background-color: #009696;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+}
+
+header li {
+  font-size: calc((0.75rem + 0.75vw) * 1.5);
+}
+
+header li {
+  padding: 1rem;
+}
+
+.hover {
+  transition: color 300ms ease-in-out;
+}
+
+.hover:hover {
+  cursor: pointer;
+  color: #d53b3b;
+}
+
 .hover::after {
-  display: block;
+  color: #d53b3b;
   font-size: 1rem;
+  font-weight: bold;
+  display: block;
   position: absolute;
-  top: 0;
-  margin-left: 2em;
+  top: calc(50% - 0.5rem);
+  margin-left: 2.25em;
   opacity: 0;
-  transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 200ms ease-in-out;
+}
+
+nav li:first-child a::after,
+nav li:last-child a::after,
+nav li:nth-child(3) a::after {
+  margin-left: 3em;
 }
 
 .hover:hover::after {
@@ -63,27 +96,9 @@ a {
   content: "Contact";
 }
 
-header ul {
-  background-color: rgb(255, 255, 251);
-  display: flex;
-  justify-content: space-around;
+header {
   position: sticky;
-}
-
-header li {
-  font-size: calc(0.75rem + 0.75vw);
-}
-
-header li ~ li {
-  padding-left: 1em;
-}
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/images/Project Images/keyboard_modo-2_2.jpg");
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  overflow: hidden;
+  top: 0;
 }
 
 .hero-image {
@@ -94,14 +109,28 @@ header li ~ li {
   position: relative;
 }
 
+.logo {
+  margin: 1rem;
+  border: #fffffb 2px solid;
+  border-radius: 50%;
+  height: 15vh;
+  width: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+  position: absolute;
+  line-height: 1;
+}
+
 .hero-text {
+  padding: 1rem;
   height: 50vh;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   position: relative;
-  padding: 1rem;
 }
 
 .hero h1 {

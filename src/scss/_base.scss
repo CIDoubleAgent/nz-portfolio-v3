@@ -16,10 +16,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: $background;
-  color: $primary;
+  color: $font-primary;
+  width: 100%;
 
   // color: $font-primary;
-  height: 200vh;
 }
 
 code {
@@ -27,17 +27,11 @@ code {
     monospace;
 }
 
-// main {
-//   display: grid;
-//   grid-template: 1fr 4fr 1fr / 2fr 6fr 2fr;
-//   width: 100vw;
-//   height: 100vh;
-// }
-
 li {
   list-style: none;
 }
 
 a {
+  color: $font-primary;
   text-decoration: none;
 }
