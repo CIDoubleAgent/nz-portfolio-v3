@@ -1,9 +1,8 @@
 // theme colors
-$primary: rgb(108, 0, 231);
-$secondary: whitesmoke;
-$accent: rgb(0, 214, 164);
-$font-primary: rgb(108, 0, 231);
-$font-secondary: whitesmoke;
+$background: rgb(39, 41, 50);
+$primary: rgb(77, 126, 168);
+$secondary: rgb(255, 255, 251);
+$accent: rgb(232, 141, 103);
 $gradient-primary: (
   background-image: linear-gradient(to right top,
     #3400c4,
@@ -18,7 +17,7 @@ $base-padding: 1rem;
 $base-margin: 2rem;
 
 // borders
-$base-border-color: rgb(108, 0, 231);
+$base-border-color: rgb(232, 141, 103);
 $base-border-thickness: 1px;
 $base-border-radius: 20px;
 

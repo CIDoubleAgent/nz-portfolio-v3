@@ -1,25 +1,25 @@
 
-.footer {
-    background-color: $primary;
-    background-image: $primary;
-    grid-column: 1 / 4;
-    grid-row: 3 / 4;
-    display: flex;
-    align-self: flex-end;
-    justify-content: center;
-    align-items: center;
-    color: $font-primary;
-}
+// .footer {
+//     background-color: $primary;
+//     background-image: $primary;
+//     grid-column: 1 / 4;
+//     grid-row: 3 / 4;
+//     display: flex;
+//     align-self: flex-end;
+//     justify-content: center;
+//     align-items: center;
+//     color: $font-primary;
+// }
 
-.footer ul {
-    padding-inline: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 50%;
-    font-size: $base-font-size;
-}
+// .footer ul {
+//     padding-inline: 0;
+//     list-style: none;
+//     display: flex;
+//     justify-content: space-around;
+//     width: 50%;
+//     font-size: $base-font-size;
+// }
 
-.footer a {
-    color: $font-secondary;
-}
+// .footer a {
+//     color: $font-secondary;
+// }

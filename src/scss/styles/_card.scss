@@ -1,39 +1,39 @@
-.card {
-  background-color: $secondary;
-  border: solid 2px $base-border-color;
-  box-shadow: $base-box-shadow;
-  margin: $base-margin 0 $base-margin 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 15px;
-  padding: $base-padding;
-}
+// .card {
+//   background-color: $secondary;
+//   border: solid 2px $base-border-color;
+//   box-shadow: $base-box-shadow;
+//   margin: $base-margin 0 $base-margin 0;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   border-radius: 15px;
+//   padding: $base-padding;
+// }
 
-.card::after {
-  background-color: white;
-  content: " ";
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  z-index: -8;
-  opacity: .5;
-}
+// .card::after {
+//   background-color: white;
+//   content: " ";
+//   position: fixed;
+//   width: 100vw;
+//   height: 100vh;
+//   top: 0;
+//   left: 0;
+//   z-index: -8;
+//   opacity: .5;
+// }
 
-.card-header {
-  font-size: $header-font-size;
-  margin-bottom: $base-margin;
-  line-height: 1;
-}
+// .card-header {
+//   font-size: $header-font-size;
+//   margin-bottom: $base-margin;
+//   line-height: 1;
+// }
 
-.card-background {
-  object-fit: cover;
-  position: fixed;
-  z-index: -10;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-}
+// .card-background {
+//   object-fit: cover;
+//   position: fixed;
+//   z-index: -10;
+//   width: 100vw;
+//   height: 100vh;
+//   top: 0;
+//   left: 0;
+// }

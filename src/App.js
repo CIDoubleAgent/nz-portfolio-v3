@@ -1,8 +1,8 @@
-import Navigation from "./components/Navigation";
-// import Hero from "./pages/Hero";
+import Header from "./components/Header";
+import Hero from "./pages/Hero";
 import About from "./pages/About";
-// import Portfolio from "./pages/Portfolio";
-// import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -11,11 +11,11 @@ function App() {
 
 
       <main>
-        {/* <Hero/> */}
-        <Navigation />
+        <Hero/>
+        <Header />
         <About />
-        {/* <Portfolio/> */}
-        {/* <Contact/> */}
+        <Portfolio/>
+        <Contact/>
         <Footer />
       </main>
 
