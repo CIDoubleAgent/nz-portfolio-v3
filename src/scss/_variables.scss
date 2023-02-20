@@ -1,25 +1,19 @@
 // theme colors
-$background: #272932;
-$primary: #595958;
-$secondary: #009696;
-$accent: #fffffb;
+$background-color: #2f2f2f;
+$primary: #454545;
+$secondary: #585959;
+$tertiary: #777777;
+$accent: #009696;
 $font-primary: #fffffb;
-$font-highlighted: #d53b3b;
-$gradient-primary: (
-  background-image: linear-gradient(to right top,
-    #3400c4,
-    #5500c4,
-    #7f00b5,
-    #b800bb,
-    #ee0087)
-);
+$font-secondary: #272932;
+$font-highlighted: #d73535;
 
 // spacing
 $base-padding: 1rem;
 $base-margin: .75rem;
 
 // borders
-$base-border-color: #fffffb;
+$base-border-color: #009696;
 $base-border-thickness: 1px;
 $base-border-radius: 20px;
 

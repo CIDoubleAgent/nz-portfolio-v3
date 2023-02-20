@@ -12,7 +12,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #272932;
+  background-color: #2f2f2f;
   color: #fffffb;
   width: 100%;
 }
@@ -30,19 +30,22 @@ a {
   text-decoration: none;
 }
 
-header ul {
+.header-wrapper {
   background-color: #009696;
+  box-shadow: 0 0 6px #000000 inset;
+  position: sticky;
+  top: -1px;
+  z-index: 5;
+}
+
+header ul {
   display: flex;
   justify-content: space-around;
-  position: sticky;
+  font-size: calc(0.75rem + 0.75vw);
 }
 
 header li {
-  font-size: calc((0.75rem + 0.75vw) * 1.5);
-}
-
-header li {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .hover {
@@ -51,25 +54,17 @@ header li {
 
 .hover:hover {
   cursor: pointer;
-  color: #d53b3b;
+  color: #d73535;
 }
 
 .hover::after {
-  color: #d53b3b;
+  color: #fffffb;
   font-size: 1rem;
-  font-weight: bold;
   display: block;
   position: absolute;
-  top: calc(50% - 0.5rem);
-  margin-left: 2.25em;
-  opacity: 0;
+  top: calc(50% - 0.65rem);
   transition: opacity 200ms ease-in-out;
-}
-
-nav li:first-child a::after,
-nav li:last-child a::after,
-nav li:nth-child(3) a::after {
-  margin-left: 3em;
+  opacity: 0;
 }
 
 .hover:hover::after {
@@ -96,30 +91,28 @@ nav li:nth-child(3) a::after {
   content: "Contact";
 }
 
-header {
-  position: sticky;
-  top: 0;
-}
-
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)), url("/src/images/Project Images/keyboard_modo-2_2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.35)), url("/src/images/Project Images/keyboard_modo-2_2.jpg");
   background-position: 0% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2980392157) inset;
 }
 
 .logo {
   margin: 1rem;
-  border: #fffffb 2px solid;
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  border: #009696 4px solid;
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
-  height: 15vh;
-  width: 15vh;
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10vh;
-  position: absolute;
+  font-size: 12vh;
   line-height: 1;
 }
 
@@ -135,4 +128,55 @@ header {
 
 .hero h1 {
   padding: 50px;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.about-card {
+  max-width: 60%;
+}
+
+.about-wrapper img {
+  width: calc(150px + 10vw);
+  border-radius: 15px;
+  float: left;
+  margin-right: 1rem;
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.about-card p {
+  font-size: calc(0.75rem + 0.75vw);
+}
+
+.portfolio-wrapper {
+  background-color: #454545;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.contact-wrapper {
+  background-color: #585959;
+  color: #fffffb;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: #777777;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-size: calc(0.75rem + 0.75vw);
 }/*# sourceMappingURL=index.css.map */

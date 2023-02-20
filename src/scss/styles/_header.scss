@@ -1,17 +1,20 @@
 
+.header-wrapper {
+  background-color: $accent;
+  box-shadow: 0 0 6px #000000 inset;
+  position: sticky;
+  top: -1px;
+  z-index: 5;
+}
+
 header ul {
-  background-color: $secondary;
   display: flex;
   justify-content: space-around;
-  position: sticky;
+  font-size: $base-font-size;
 }
 
 header li {
-  font-size: calc($base-font-size * 1.5);
-}
-
-header li {
-  padding: $base-padding;
+  padding: $base-padding / 2;
 }
 
 .hover {
@@ -24,22 +27,20 @@ header li {
 }
 
 .hover::after {
-  color: $font-highlighted;
+  color: $font-primary;
   font-size: $link-font-size;
-  font-weight: bold;
   display: block;
   position: absolute;
-  top: calc(50% - calc($link-font-size * .5));
-  margin-left: 2.25em;
-  opacity: 0;
+  top: calc(50% - calc($link-font-size * .65));
   transition: opacity 200ms ease-in-out;
+  opacity: 0;
 }
 
-nav li:first-child a::after,
-nav li:last-child a::after,
-nav li:nth-child(3) a::after {
-  margin-left: 3em;
-}
+// nav li:first-child a::after,
+// nav li:last-child a::after,
+// nav li:nth-child(3) a::after {
+//   margin-left: 3em;
+// }
 
 .hover:hover::after {
   opacity: 1;
@@ -63,9 +64,4 @@ nav li:nth-child(3) a::after {
 
 .contact-link::after {
   content: "Contact";
-}
-
-header {
-  position: sticky;
-  top: 0;
 }

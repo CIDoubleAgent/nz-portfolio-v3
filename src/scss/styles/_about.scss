@@ -1,24 +1,25 @@
-// .about-wrapper {
-//   grid-area: 2 / 2;
-//   display: flex;
-//   justify-self: center;
-//   align-items: center;
-//   max-width: 1000px;
-// }
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: $base-padding;
+}
 
-// .about-card img {
-//   width: calc(150px + 10vw);
-//   border-radius: 15px;
-//   float: left;
-//   margin-right: 1rem;
-//   border: solid 2px $base-border-color;
-// }
+.about-card {
+  max-width: 60%;
+}
 
-// .about-card p {
-//   margin-block: 0;
-//   padding: 0;
-//   font-size: $base-font-size;
-// }
+.about-wrapper img {
+  width: calc(150px + 10vw);
+  border-radius: 15px;
+  float: left;
+  margin-right: 1rem;
+  box-shadow: $base-box-shadow;
+}
+
+.about-card p {
+  font-size: $base-font-size;
+  
+}
 
 // @media screen and (max-width: 650px) {
 //   .card-body {
