@@ -4,28 +4,38 @@ import { faComment, faFile, faFolder, faHouse, faUser } from '@fortawesome/free-
 
 const Header = () => {
   return (
-    <header>
+    <header className='header-wrapper'>
       <nav>
         <ul>
 
           <li>
-            <a className='home-link hover' ><FontAwesomeIcon icon={faHouse} /></a>
+            <a className='home-link hover' >
+              <FontAwesomeIcon icon={faHouse} />
+            </a>
           </li>
 
           <li>
-            <a className='about-link hover' ><FontAwesomeIcon icon={faUser} /></a>
+            <a className='about-link hover' >
+              <FontAwesomeIcon icon={faUser} />
+            </a>
           </li>
 
           <li>
-            <a className='portfolio-link hover' ><FontAwesomeIcon icon={faFolder} /></a>
+            <a className='portfolio-link hover' >
+              <FontAwesomeIcon icon={faFolder} />
+            </a>
           </li>
 
           <li>
-            <a className='resume-link hover' ><FontAwesomeIcon icon={faFile} /></a>
+            <a className='resume-link hover' >
+              <FontAwesomeIcon icon={faFile} />
+            </a>
           </li>
 
           <li>
-            <a className='contact-link hover' ><FontAwesomeIcon icon={faComment} /></a>
+            <a className='contact-link hover' >
+              <FontAwesomeIcon icon={faComment} />
+            </a>
           </li>
 
         </ul>
