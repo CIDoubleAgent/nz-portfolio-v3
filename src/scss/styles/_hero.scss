@@ -1,6 +1,11 @@
 
+.hero h1 {
+    padding: 50px;
+}
+
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.35)), url('/src/images/Project Images/keyboard_modo-2_2.jpg');
+    border-bottom: 1rem solid $base-border-color;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)), url('/src/images/Project Images/keyboard_modo-2_2.jpg');
     background-position: 0% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,14 +14,17 @@
 }
 
 .logo {
+    color: $font-primary;
     margin: $base-padding;
     box-shadow: $base-box-shadow;
-    border: $base-border-color 4px solid;
-    background-color: rgba(0, 0, 0, 0.4);
+    border: $base-border-color 6px solid;
+    background-color: $logo-background;
     border-radius: 50%;
     height: 20vh;
     width: 20vh;
     position: absolute;
+    right: 0;
+    top: 38.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,9 +40,4 @@
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-}
-
-.hero h1 {
-    padding: 50px;
-
 }

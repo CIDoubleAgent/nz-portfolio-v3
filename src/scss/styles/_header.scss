@@ -1,29 +1,32 @@
 
 .header-wrapper {
-  background-color: $accent;
-  box-shadow: 0 0 6px #000000 inset;
-  position: sticky;
-  top: -1px;
+  display: flex;
+  justify-content: center;
   z-index: 5;
+  position: absolute;
+  width: 100%;
 }
 
 header ul {
-  display: flex;
-  justify-content: space-around;
   font-size: $base-font-size;
+  display: flex;
 }
 
 header li {
   padding: $base-padding / 2;
 }
 
+header li ~ li {
+  margin-left: 5em;
+}
+
 .hover {
-  transition: color 300ms ease-in-out;
+  transition: color 200ms ease-in-out;
 }
 
 .hover:hover {
   cursor: pointer;
-  color: $font-highlighted;
+  color: $font-accent;
 }
 
 .hover::after {
@@ -36,11 +39,9 @@ header li {
   opacity: 0;
 }
 
-// nav li:first-child a::after,
-// nav li:last-child a::after,
-// nav li:nth-child(3) a::after {
-//   margin-left: 3em;
-// }
+nav a::after {
+  margin-left: 2em;
+}
 
 .hover:hover::after {
   opacity: 1;
@@ -51,7 +52,7 @@ header li {
 }
 
 .about-link::after {
-  content: "About Me";
+  content: "About";
 }
 
 .portfolio-link::after {
