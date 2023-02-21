@@ -1,18 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faComment, faFile, faFolder, faHouse, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faComment, faFile, faFolder, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
     <header className='header-wrapper'>
       <nav>
         <ul>
-
-          <li>
-            <a className='home-link hover' >
-              <FontAwesomeIcon icon={faHouse} />
-            </a>
-          </li>
 
           <li>
             <a className='about-link hover' >
