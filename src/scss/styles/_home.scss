@@ -1,0 +1,19 @@
+
+// .hero-image {
+//     background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.50)), url('/src/images/Project Images/keyboard_modo-2_2.jpg');
+//     background-position: 0% 50%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     position: relative;
+//     box-shadow: 0 0 5px #0000004c inset;
+// }
+
+.hero-text {
+    padding: $base-padding;
+    height: $hero-height;
+    // color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+}

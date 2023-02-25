@@ -1,0 +1,22 @@
+// .nav-wrapper {
+//   display: flex;
+//   justify-content: center;
+// }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $base-padding 0;
+}
+
+nav ul {
+  font-size: $base-font-size;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.brand a {
+  font-size: $brand-size;
+}
