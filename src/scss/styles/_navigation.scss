@@ -7,13 +7,15 @@
   width: 100%;
 }
 
-header ul {
+nav ul {
   font-size: $base-font-size;
   display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 header li {
-  padding: $base-padding / 2;
+  padding: 5%;
 }
 
 header li ~ li {

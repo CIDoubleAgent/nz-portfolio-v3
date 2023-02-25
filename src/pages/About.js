@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className='about-wrapper'>
 
-      <div className='card about-card'>
+      <div className='about-card'>
 
         <img alt='profile' src='https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/profile/profilePicMe_1.jpg?raw=true'>
         </img>

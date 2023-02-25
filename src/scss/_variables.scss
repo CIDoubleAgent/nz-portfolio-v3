@@ -13,11 +13,13 @@ $font-accent: #b42d2d;
 // spacing
 $base-padding: 1rem;
 $base-margin: .75rem;
+$hero-height: 18.7rem;
 
 // borders
 $base-border-color: #4aa2a2;
 $base-border-thickness: 1px;
 $base-border-radius: 20px;
+$hero-border-thickness: 1rem;
 
 // box shadow
 $base-box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
@@ -26,3 +28,4 @@ $base-box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
 $base-font-size: calc(.75rem + .75vw);
 $header-font-size: calc(2rem + 2vw);
 $link-font-size: 1rem;
+$base-line-height: 1.6;

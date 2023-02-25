@@ -4,8 +4,8 @@
 }
 
 .hero-image {
-    border-bottom: 1rem solid $base-border-color;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.55)), url('/src/images/Project Images/keyboard_modo-2_2.jpg');
+    border-bottom: $hero-border-thickness solid $base-border-color;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.50)), url('/src/images/Project Images/keyboard_modo-2_2.jpg');
     background-position: 0% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,21 +20,21 @@
     border: $base-border-color 6px solid;
     background-color: $logo-background;
     border-radius: 50%;
-    height: 20vh;
-    width: 20vh;
+    height: 12rem;
+    width: 12rem;
     position: absolute;
     right: 0;
-    top: 38.5vh;
+    top: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12vh;
+    font-size: 7rem;
     line-height: 1;
 }
 
 .hero-text {
     padding: $base-padding;
-    height: 50vh;
+    height: $hero-height;
     color: white;
     display: flex;
     flex-direction: column;
