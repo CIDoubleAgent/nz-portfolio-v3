@@ -5,6 +5,7 @@ $primary: #454545;
 $secondary: #585959;
 $tertiary: #777777;
 $accent: #009696;
+$accent-secondary: rgb(200, 255, 0);
 $logo-background: #1d1d1d;
 $font-primary: #fffffb;
 $font-secondary: #2f2f2f;
@@ -13,6 +14,7 @@ $font-accent: #b42d2d;
 // spacing
 $base-padding: 1em;
 $base-margin: 75rem;
+$nav-spacing: 3rem;
 
 // borders
 $base-border-color: #4aa2a2;
@@ -26,5 +28,6 @@ $base-box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
 // font sizes
 $base-font-size: calc(.75rem + .75vw);
 $header-font-size: calc(2rem + 2vw);
+$brand-font-size: calc($base-font-size * 1.8);
 $link-font-size: 1rem;
 $base-line-height: 1.6;
