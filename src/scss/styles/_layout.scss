@@ -1,7 +1,3 @@
-// .nav-wrapper {
-//   display: flex;
-//   justify-content: center;
-// }
 
 nav {
   display: flex;
@@ -13,9 +9,11 @@ nav ul {
   font-size: $base-font-size;
   display: flex;
   justify-content: flex-end;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .brand a {
-  font-size: $brand-size;
+  font-size: calc($base-font-size * 5);
+  -webkit-text-stroke-width: .02em;
+  -webkit-text-stroke-color: #4aa2a2;
 }

@@ -1,13 +1,9 @@
 
 .footer {
     display: flex;
-    justify-self: flex-end;
     justify-content: center;
     align-items: center;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 .footer ul {
@@ -15,6 +11,6 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     font-size: $base-font-size;
 }

@@ -1,6 +1,5 @@
-
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.60)), url('/src/images/Project-Images/keyboard_modo-2_2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.65)), url('/src/images/Project-Images/keyboard_modo-2_2.jpg');
     box-shadow: 0 0 5px #0000004c inset;
     background-position: 0% 50%;
     background-repeat: no-repeat;
@@ -13,6 +12,19 @@
     width: 100%;
 }
 
-.hero-text {
+.hero {
     padding: $base-padding;
+    margin-bottom: 10%;
+}
+
+.hero h1 {
+    font-size: $header-font-size;
+}
+
+.hero h1::first-letter {
+    color: #4aa2a2;
+}
+
+.hero p {
+    font-size: $base-font-size;
 }

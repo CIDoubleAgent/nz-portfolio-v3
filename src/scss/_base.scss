@@ -21,8 +21,12 @@ code {
 }
 
 .content-wrapper {
-  max-width: 70%;
-  margin-inline: 15%;
+  max-width: 60%;
+  margin-inline: 20%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 li {
