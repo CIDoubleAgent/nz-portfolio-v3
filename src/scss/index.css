@@ -84,7 +84,7 @@ nav li {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25)), url("/src/images/Project-Images/keyboard_modo-2_2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25)), url("/src/images/background-images/keyboard_modo-2_2.jpg");
 }
 
 .hero {
@@ -130,7 +130,7 @@ nav li {
 }
 
 .portfolio-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/src/images/Project-Images/keyboard_dot-world-grey_1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/src/images/background-images/keyboard_dot-world-grey_1.jpg");
   background-repeat: repeat-y;
 }
 
@@ -139,7 +139,7 @@ nav li {
 }
 
 .contact-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url("/src/images/Project-Images/clean-setup_1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url("/src/images/background-images/clean-setup_1.jpg");
 }
 
 .contact {
