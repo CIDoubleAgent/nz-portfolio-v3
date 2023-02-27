@@ -11,7 +11,9 @@ const Layout = () => {
       <div className="content-wrapper">
         <nav>
           <ul className="brand">
+            <li>
             <Link to="/">Ž</Link>
+            </li>
           </ul>
 
           <ul>

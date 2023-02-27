@@ -18,12 +18,11 @@ nav ul {
 nav li {
   display: flex;
   align-items: center;
-  
 }
 
 .brand a {
   font-size: $brand-font-size;
-  color: $font-accent;
+  color: $accent-secondary;
   margin-right: $nav-spacing;
 }
 

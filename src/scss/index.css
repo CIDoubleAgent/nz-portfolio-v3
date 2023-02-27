@@ -26,6 +26,19 @@ code {
   justify-content: space-between;
 }
 
+.background-image {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2980392157) inset;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+}
+
 li {
   list-style: none;
 }
@@ -33,6 +46,10 @@ li {
 a {
   text-decoration: none;
   color: white;
+}
+
+p {
+  max-width: 65ch;
 }
 
 nav {
@@ -58,7 +75,7 @@ nav li {
 
 .brand a {
   font-size: calc((0.75rem + 0.75vw) * 1.8);
-  color: #b42d2d;
+  color: rgb(200, 255, 0);
   margin-right: 3rem;
 }
 
@@ -67,17 +84,7 @@ nav li {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.65)), url("/src/images/Project-Images/keyboard_modo-2_2.jpg");
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2980392157) inset;
-  background-position: 0% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -10;
-  height: 100%;
-  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25)), url("/src/images/Project-Images/keyboard_modo-2_2.jpg");
 }
 
 .hero {
@@ -89,7 +96,9 @@ nav li {
 }
 
 .hero h1::first-letter {
-  color: #b42d2d;
+  font-size: calc((2rem + 2vw) * 2);
+  font-style: italic;
+  color: rgb(200, 255, 0);
 }
 
 .hero p {
@@ -120,11 +129,20 @@ nav li {
   max-width: 60ch;
 }
 
-.portfolio-wrapper {
+.portfolio-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/src/images/Project-Images/keyboard_dot-world-grey_1.jpg");
+  background-repeat: repeat-y;
+}
+
+.portfolio {
   padding: 1em;
 }
 
-.contact-wrapper {
+.contact-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url("/src/images/Project-Images/clean-setup_1.jpg");
+}
+
+.contact {
   padding: 1em;
 }
 
