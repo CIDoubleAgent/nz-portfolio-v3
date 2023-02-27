@@ -1,3 +1,8 @@
-.portfolio-wrapper {
+.portfolio-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/src/images/Project-Images/keyboard_dot-world-grey_1.jpg');
+    background-repeat: repeat-y;
+}
+
+.portfolio {
     padding: $base-padding;
 }

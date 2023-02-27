@@ -1,3 +1,7 @@
-.contact-wrapper {
+.contact-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url('/src/images/Project-Images/clean-setup_1.jpg');
+}
+
+.contact {
     padding: $base-padding;
 }
