@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "image 1",
+    "title": "Hungry Snake",
+    "description": "Description Here",
+    "deployedLink": "Deployed Link 1",
+    "repoLink": "Repo Link 1"
+  },
+  
+  {
+    "id": 2,
+    "imageUrl": "image 2",
+    "title": "Project 2",
+    "description": "Project 2 description Here",
+    "deployedLink": "Deployed Link 2",
+    "repoLink": "Repo Link 2"
+  },
+
+  {
+    "id": 3,
+    "imageUrl": "image 3",
+    "title": "Project 3",
+    "description": "Project 3 description Here",
+    "deployedLink": "Deployed Link 3",
+    "repoLink": "Repo Link 3"
+  },
+
+  {
+    "id": 4,
+    "imageUrl": "image 4",
+    "title": "Project 4",
+    "description": "Project 4 description Here",
+    "deployedLink": "Deployed Link 4",
+    "repoLink": "Repo Link 4"
+  }
+
+]
