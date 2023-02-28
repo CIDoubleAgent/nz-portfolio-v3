@@ -1,8 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faComment, faFolder, faUser } from '@fortawesome/free-solid-svg-icons'
-
 import Footer from "../components/Footer";
 
 const Layout = () => {
@@ -18,16 +15,16 @@ const Layout = () => {
 
           <ul>
             <li id="homeLink">
-              <Link to="/"><FontAwesomeIcon icon={faHouse} /> Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li id="aboutLink">
-              <Link to="/about"><FontAwesomeIcon icon={faUser} /> About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li id="portfolioLink">
-              <Link to="/portfolio"><FontAwesomeIcon icon={faFolder} /> Portfolio</Link>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             <li id="contactLink">
-              <Link to="/contact"><FontAwesomeIcon icon={faComment} /> Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
