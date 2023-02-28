@@ -1,39 +1,31 @@
-// .card {
-//   background-color: $secondary;
-//   border: solid 2px $base-border-color;
-//   box-shadow: $base-box-shadow;
-//   margin: $base-margin 0 $base-margin 0;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   border-radius: 15px;
-//   padding: $base-padding;
-// }
+.card {
+    box-shadow: $base-box-shadow;
+    border-radius: 8px;
+    padding: $base-padding;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true');
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow: hidden;
+    // height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
 
-// .card::after {
-//   background-color: white;
-//   content: " ";
-//   position: fixed;
-//   width: 100vw;
-//   height: 100vh;
-//   top: 0;
-//   left: 0;
-//   z-index: -8;
-//   opacity: .5;
-// }
+.card:nth-of-type(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/weather-dashboard/blob/main/images/Weather%20Dash%202.png?raw=true');
+}
 
-// .card-header {
-//   font-size: $header-font-size;
-//   margin-bottom: $base-margin;
-//   line-height: 1;
-// }
+.card h2 {
+    color: $accent-secondary;
+}
 
-// .card-background {
-//   object-fit: cover;
-//   position: fixed;
-//   z-index: -10;
-//   width: 100vw;
-//   height: 100vh;
-//   top: 0;
-//   left: 0;
-// }
+.spacer {
+    height: 20rem;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}

@@ -52,6 +52,37 @@ p {
   max-width: 65ch;
 }
 
+.card {
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  padding: 1em;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url("https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true");
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:nth-of-type(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url("https://github.com/CIDoubleAgent/weather-dashboard/blob/main/images/Weather%20Dash%202.png?raw=true");
+}
+
+.card h2 {
+  color: rgb(200, 255, 0);
+}
+
+.spacer {
+  height: 20rem;
+}
+
+.card ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -131,13 +162,19 @@ nav li {
 
 .portfolio-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/src/images/background-images/keyboard_dot-world-grey_1.jpg");
-  background-repeat: repeat-y;
+  background-repeat: repeat-x;
 }
 
 .portfolio {
-  padding: 1em;
+  display: flex;
+  gap: 3rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .portfolio {
+    flex-direction: column;
+  }
+}
 .contact-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url("/src/images/background-images/clean-setup_1.jpg");
 }
