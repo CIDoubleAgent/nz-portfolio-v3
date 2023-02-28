@@ -1,38 +1,19 @@
 [
   {
     "id": 1,
-    "imageUrl": "image 1",
     "title": "Hungry Snake",
-    "description": "Description Here",
-    "deployedLink": "Deployed Link 1",
-    "repoLink": "Repo Link 1"
+    "imageUrl": "../images/project-images/hungry-snake_1.png",
+    "description": "A classic snake game built with Javascript. Higher difficulties increase snake speed and growth rate but reward more points.",
+    "deployedLink": "https://cidoubleagent.github.io/hungry-snake/",
+    "repoLink": "https://github.com/CIDoubleAgent/hungry-snake"
   },
   
   {
     "id": 2,
+    "title": "Weather Dashboard",
     "imageUrl": "image 2",
-    "title": "Project 2",
-    "description": "Project 2 description Here",
-    "deployedLink": "Deployed Link 2",
-    "repoLink": "Repo Link 2"
-  },
-
-  {
-    "id": 3,
-    "imageUrl": "image 3",
-    "title": "Project 3",
-    "description": "Project 3 description Here",
-    "deployedLink": "Deployed Link 3",
-    "repoLink": "Repo Link 3"
-  },
-
-  {
-    "id": 4,
-    "imageUrl": "image 4",
-    "title": "Project 4",
-    "description": "Project 4 description Here",
-    "deployedLink": "Deployed Link 4",
-    "repoLink": "Repo Link 4"
+    "description": "A weather app with current as well as five day forecasts. Displays weather data for a selected city.",
+    "deployedLink": "https://cidoubleagent.github.io/weather-dashboard/",
+    "repoLink": "https://github.com/CIDoubleAgent/weather-dashboard"
   }
-
 ]
