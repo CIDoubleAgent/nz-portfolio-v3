@@ -32,14 +32,14 @@ code {
 .background-image {
   box-shadow: 0 0 5px #0000004c inset;
   background-position: 0% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: -10;
-  height: 100%;
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
