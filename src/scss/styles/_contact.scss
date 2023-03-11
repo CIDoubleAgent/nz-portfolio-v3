@@ -3,5 +3,20 @@
 }
 
 .contact {
+    position: fixed;
+    left: 26%;
+    top: 26%;
     padding: $base-padding;
+    color: $accent-secondary;
+    // transform: translate(35%, -35vh) rotate(-15deg);
+    transform: rotate(-13deg);
+    font-style: italic;
+}
+
+.contact h1 {
+    font-size: calc($base-font-size * 2);
+}
+
+.contact p {
+    font-size: $base-font-size;
 }
