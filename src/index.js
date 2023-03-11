@@ -13,7 +13,7 @@ import './scss/index.css';
 
 import reportWebVitals from './reportWebVitals';
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
         <Routes>
