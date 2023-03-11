@@ -6,28 +6,29 @@ const Layout = () => {
   return (
     <>
       <div className="content-wrapper">
-        <nav>
+        <header>
           <ul className="brand">
             <li>
-            <Link to="/">Ž</Link>
+              <Link to="/">Ž</Link>
             </li>
           </ul>
-
-          <ul>
-            <li id="homeLink">
-              <Link to="/">Home</Link>
-            </li>
-            <li id="aboutLink">
-              <Link to="/about">About</Link>
-            </li>
-            <li id="portfolioLink">
-              <Link to="/portfolio">Projects</Link>
-            </li>
-            <li id="contactLink">
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+          <nav>
+            <ul>
+              <li id="homeLink">
+                <Link to="/">Home</Link>
+              </li>
+              <li id="aboutLink">
+                <Link to="/about">About</Link>
+              </li>
+              <li id="portfolioLink">
+                <Link to="/portfolio">Projects</Link>
+              </li>
+              <li id="contactLink">
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
         <Outlet />
 

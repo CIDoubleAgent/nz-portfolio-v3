@@ -1,10 +1,12 @@
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: $base-padding 0;
   height: calc($base-font-size * 3);
+}
+nav {
+  display: flex;
 }
 
 nav ul {
@@ -18,6 +20,7 @@ nav ul {
 nav li {
   display: flex;
   align-items: center;
+  padding-inline: .3rem;
 }
 
 .brand a {
@@ -28,4 +31,12 @@ nav li {
 
 .active-link {
   border-top: inset 3px $accent-secondary;
+}
+
+nav li:hover {
+  color: $accent-secondary;
+}
+
+nav li:active {
+  color: $font-accent;
 }
