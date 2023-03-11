@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  background-color: black;
 }
 
 code {
@@ -18,9 +19,10 @@ code {
 }
 
 .content-wrapper {
-  max-width: 60%;
-  margin-inline: 20%;
-  min-height: 100vh;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-inline: 2em;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,9 +37,9 @@ code {
   top: 0;
   left: 0;
   z-index: -10;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 li {
@@ -46,7 +48,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 p {
@@ -54,6 +56,7 @@ p {
 }
 
 .card {
+  margin-inline: auto;
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
   padding: 1em;
@@ -64,6 +67,8 @@ p {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  transition: filter 300ms;
+  max-width: 30rem;
 }
 
 .card:nth-of-type(2) {
@@ -71,11 +76,15 @@ p {
 }
 
 .card h2 {
-  color: rgb(200, 255, 0);
+  color: rgb(217, 255, 81);
+}
+
+.card a {
+  color: rgb(217, 255, 81);
 }
 
 .spacer {
-  height: 20rem;
+  height: 15rem;
 }
 
 .card ul {
@@ -84,43 +93,51 @@ p {
   margin-top: 1rem;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 1em 0;
   height: calc((0.75rem + 0.75vw) * 3);
+}
+
+nav {
+  display: flex;
 }
 
 nav ul {
   font-size: calc(0.75rem + 0.75vw);
   display: flex;
   justify-content: flex-end;
-  gap: 3rem;
+  gap: 1.25rem;
   align-self: stretch;
 }
 
 nav li {
   display: flex;
   align-items: center;
+  padding-inline: 0.3rem;
 }
 
 .brand a {
   font-size: calc((0.75rem + 0.75vw) * 1.8);
-  color: rgb(200, 255, 0);
-  margin-right: 3rem;
+  color: rgb(217, 255, 81);
+  margin-right: 1.25rem;
 }
 
 .active-link {
-  border-top: inset 3px rgb(200, 255, 0);
+  border-top: inset 3px rgb(217, 255, 81);
+}
+
+nav li:hover {
+  color: rgb(217, 255, 81);
+}
+
+nav li:active {
+  color: #b42d2d;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.25)), url("/src/images/background-images/keyboard_modo-2_2.jpg");
-}
-
-.hero {
-  padding: 1em;
 }
 
 .hero h1 {
@@ -130,7 +147,7 @@ nav li {
 .hero h1::first-letter {
   font-size: calc((2rem + 2vw) * 2);
   font-style: italic;
-  color: rgb(200, 255, 0);
+  color: rgb(217, 255, 81);
 }
 
 .hero p {
@@ -163,7 +180,6 @@ nav li {
 
 .portfolio-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/src/images/background-images/keyboard_dot-world-grey_1.jpg");
-  background-repeat: repeat-x;
 }
 
 .portfolio {
@@ -181,7 +197,21 @@ nav li {
 }
 
 .contact {
+  position: fixed;
+  left: 26%;
+  top: 26%;
   padding: 1em;
+  color: rgb(217, 255, 81);
+  transform: rotate(-13deg);
+  font-style: italic;
+}
+
+.contact h1 {
+  font-size: calc((0.75rem + 0.75vw) * 2);
+}
+
+.contact p {
+  font-size: calc(0.75rem + 0.75vw);
 }
 
 .footer {
