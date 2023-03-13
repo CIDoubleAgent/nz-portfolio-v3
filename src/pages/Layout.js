@@ -1,5 +1,4 @@
 import { Outlet, Link } from "react-router-dom";
-
 import Footer from "../components/Footer";
 
 const Layout = () => {
@@ -22,6 +21,9 @@ const Layout = () => {
               </li>
               <li id="portfolioLink">
                 <Link to="/portfolio">Projects</Link>
+              </li>
+              <li id="resumeLink">
+                <Link to="/resume">Resume</Link>
               </li>
               <li id="contactLink">
                 <Link to="/contact">Contact</Link>
