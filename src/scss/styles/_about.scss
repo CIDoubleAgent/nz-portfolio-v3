@@ -1,15 +1,19 @@
-.about-wrapper {
-  padding: $base-padding;
-  margin-bottom: $base-margin;
-  max-width: 100rem;
-  // background-color: antiquewhite;
+
+section > .about-card {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.55)), url('/src/images/background-images/coffeeandcroissants.png');
 }
 
 .about-card {
   display: flex;
+  align-items: center;
 }
 
-.about-wrapper img {
+.about-card img {
   margin-bottom: $base-padding;
   width: calc(150px + 10vw);
   border-radius: 50%;
