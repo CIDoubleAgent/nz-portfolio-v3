@@ -1,22 +1,22 @@
 .contact-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url('/src/images/background-images/clean-setup_1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05)), url('/src/images/background-images/clean-setup_1.jpg');
 }
 
 .contact {
-    position: fixed;
-    left: 26%;
-    top: 26%;
-    padding: $base-padding;
-    color: $accent-secondary;
-    // transform: translate(35%, -35vh) rotate(-15deg);
-    transform: rotate(-13deg);
-    font-style: italic;
+  position: fixed;
+  left: 26%;
+  top: 26%;
+  padding: $base-padding;
+  color: $accent-secondary;
+  // transform: translate(35%, -35vh) rotate(-15deg);
+  transform: rotate(-15.5deg);
+  font-style: italic;
 }
 
 .contact h1 {
-    font-size: calc($base-font-size * 2);
+  font-size: calc($base-font-size * 2);
 }
 
 .contact p {
-    font-size: $base-font-size;
+  font-size: $base-font-size;
 }
