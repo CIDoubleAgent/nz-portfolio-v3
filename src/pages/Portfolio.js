@@ -8,7 +8,7 @@ class Portfolio extends Component {
       <section>
         <div className='portfolio-image background-image'></div>
 
-        <div className=' portfolio'>
+        <article className=' portfolio'>
           {ProjectData.map((projectDetail) => {
             return <article className='card' key={projectDetail.id}>
 
@@ -37,7 +37,7 @@ class Portfolio extends Component {
               </ul>
             </article>
           })}
-        </div>
+        </article>
       </section>
     )
 
