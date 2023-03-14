@@ -11,9 +11,18 @@
   {
     "id": 2,
     "title": "Weather Dashboard",
-    "imageUrl": "image 2",
+    "imageUrl": "../images/project-images/weather-dashboard.png",
     "description": "A weather app with current as well as five day forecasts. Displays weather data for a selected city.",
     "deployedLink": "https://cidoubleagent.github.io/weather-dashboard/",
     "repoLink": "https://github.com/CIDoubleAgent/weather-dashboard"
+  },
+
+  {
+    "id": 3,
+    "title": "California National Parks",
+    "imageUrl": "../",
+    "description": "A mock-up of a page for a California parks website.",
+    "deployedLink": "https://cidoubleagent.github.io/California-National-Parks-List/",
+    "repoLink": "https://github.com/CIDoubleAgent/California-National-Parks-List"
   }
 ]
