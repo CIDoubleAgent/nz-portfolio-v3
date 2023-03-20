@@ -1,7 +1,8 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 
 const Layout = () => {
+
   return (
     <>
       <div className="content-wrapper">
@@ -14,19 +15,19 @@ const Layout = () => {
           <nav>
             <ul>
               <li id="homeLink">
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li id="aboutLink">
-                <Link to="/about">About</Link>
+                <NavLink to="/about">About</NavLink>
               </li>
               <li id="portfolioLink">
-                <Link to="/portfolio">Projects</Link>
+                <NavLink to="/portfolio">Projects</NavLink>
               </li>
               <li id="resumeLink">
-                <Link to="/resume">Resume</Link>
+                <NavLink to="/resume">Resume</NavLink>
               </li>
               <li id="contactLink">
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </nav>
@@ -39,21 +40,5 @@ const Layout = () => {
     </>
   )
 };
-
-// const homeLink = document.getElementById('homeLink');
-// const aboutLink = document.getElementById('aboutLink');
-// const portfolioLink = document.getElementById('portfolioLink');
-// const contactLink = document.getElementById('contactLink');
-
-// switch(window.location) {
-//   case 'http://localhost:3000/':
-//     homeLink.classList.add('active-link');
-//     break;
-//     default:
-//       homeLink.classList.remove('active-link')
-//       aboutLink.classList.remove('active-link')
-//       portfolioLink.classList.remove('active-link')
-//       contactLink.classList.remove('active-link')
-// }
 
 export default Layout;
