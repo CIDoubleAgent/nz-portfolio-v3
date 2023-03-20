@@ -1,6 +1,6 @@
-import React from 'react'
 
 const Contact = () => {
+
   return (
     <section>
       <div className='contact-image background-image'></div>

@@ -1,4 +1,6 @@
+
 const Home = () => {
+
   return (
     <section>
       <div className='hero-image background-image' alt='modo-2-keyboard'></div>

@@ -1,6 +1,6 @@
-import React from 'react'
 
 const About = () => {
+  
   return (
     <section>
       <div className='about-image background-image' alt='coffee and croissants'></div>
