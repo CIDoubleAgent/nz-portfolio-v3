@@ -4,7 +4,6 @@
   border-radius: 8px;
   padding: $base-padding;
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true');
   background-size: cover;
   background-position: 50% 50%;
   overflow: hidden;
@@ -14,10 +13,8 @@
   // filter: grayscale(100%);
   // transition: filter 300ms;
   max-width: 30rem;
-}
-
-.card:nth-of-type(2) {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/weather-dashboard/blob/main/images/Weather%20Dash%202.png?raw=true');
+  width: 100%;
+  height: auto;
 }
 
 // .card:hover {
@@ -25,7 +22,13 @@
 // }
 
 .card h2 {
+  color: $font-primary;
+  -webkit-text-stroke: 1px $accent;
+}
+
+.card:nth-of-type(2) h2 {
   color: $accent-secondary;
+  -webkit-text-stroke: 1px $accent;
 }
 
 .card a {
