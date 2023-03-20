@@ -1,9 +1,11 @@
+
 import React, { Component } from 'react';
 import ProjectData from '../data/projects.json';
-// import image from '../images/project-images/hungry-snake_1.png'
 
 class Portfolio extends Component {
+  
   render() {
+
     return (
       <section>
         <div className='portfolio-image background-image'></div>
@@ -24,13 +26,13 @@ class Portfolio extends Component {
 
               <ul>
                 <li>
-                  <a href={projectDetail.deployedLink}>
+                  <a href={projectDetail.deployedLink} target='_blank' rel="noreferrer">
                     Deployed Site
                   </a>
                 </li>
 
                 <li>
-                  <a href={projectDetail.repoLink}>
+                  <a href={projectDetail.repoLink} target='_blank' rel="noreferrer">
                     Repository
                   </a>
                 </li>
@@ -44,22 +46,5 @@ class Portfolio extends Component {
 
   }
 }
-
-// export default ProjectList
-
-// const Portfolio = () => {
-//   return (
-//     <section>
-//       <div className='portfolio-image background-image'></div>
-
-//       <div className='portfolio'>
-//         <h1>Portfolio</h1>
-//         <div className='portfolio-grid'>
-
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
 
 export default Portfolio
