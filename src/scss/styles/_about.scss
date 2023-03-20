@@ -16,7 +16,7 @@ section > .about-card {
 .about-card img {
   margin-bottom: $base-padding;
   width: calc(150px + 10vw);
-  border-radius: 50%;
+  border-radius: 30px;
   margin-right: 1rem;
   box-shadow: $base-box-shadow;
 }
@@ -27,7 +27,7 @@ section > .about-card {
   max-width: 60ch;
 }
 
-// @media screen and (max-width: 650px) {
+// @media screen and (width > 650px) {
 //   .card-body {
 //     display: flex;
 //     flex-direction: column;

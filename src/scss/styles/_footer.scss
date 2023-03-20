@@ -7,10 +7,14 @@
 }
 
 .footer ul {
-    padding: $base-padding;
+    color: $accent-secondary;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     font-size: $base-font-size;
+}
+
+.footer li {
+    padding: $base-padding;
 }
