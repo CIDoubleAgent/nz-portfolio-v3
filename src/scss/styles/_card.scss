@@ -22,13 +22,7 @@
 // }
 
 .card h2 {
-  color: $font-primary;
-  -webkit-text-stroke: 1px $accent;
-}
-
-.card:nth-of-type(2) h2 {
   color: $accent-secondary;
-  -webkit-text-stroke: 1px $accent;
 }
 
 .card a {
