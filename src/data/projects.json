@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Hungry Snake",
-    "imageUrl": "../images/project-images/hungry-snake_1.png",
+    "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true",
     "description": "A classic snake game built with Javascript. Higher difficulties increase snake speed and growth rate but reward more points.",
     "deployedLink": "https://cidoubleagent.github.io/hungry-snake/",
     "repoLink": "https://github.com/CIDoubleAgent/hungry-snake"
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Weather Dashboard",
-    "imageUrl": "../images/project-images/weather-dashboard.png",
+    "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Weather-Dash-2.png?raw=true",
     "description": "A weather app with current as well as five day forecasts. Displays weather data for a selected city.",
     "deployedLink": "https://cidoubleagent.github.io/weather-dashboard/",
     "repoLink": "https://github.com/CIDoubleAgent/weather-dashboard"
@@ -20,9 +20,27 @@
   {
     "id": 3,
     "title": "California National Parks",
-    "imageUrl": "../",
+    "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/California-National-Parks.png?raw=true",
     "description": "A mock-up of a page for a California parks website.",
     "deployedLink": "https://cidoubleagent.github.io/California-National-Parks-List/",
     "repoLink": "https://github.com/CIDoubleAgent/California-National-Parks-List"
+  },
+
+  {
+    "id": 4,
+    "title": "Day Planner",
+    "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Work-Day-Scheduler_1.png?raw=true",
+    "description": "A day planner app made with JavaScript, HTML and CSS",
+    "deployedLink": "https://cidoubleagent.github.io/Day-Planner/",
+    "repoLink": "https://github.com/CIDoubleAgent/Day-Planner"
+  },
+
+  {
+    "id": 5,
+    "title": "Coding Quiz",
+    "imageUrl": "../",
+    "description": "A quiz designed to test the users basic knowledge.",
+    "deployedLink": "https://cidoubleagent.github.io/Coding-Quiz/",
+    "repoLink": "https://github.com/CIDoubleAgent/Coding-Quiz"
   }
 ]

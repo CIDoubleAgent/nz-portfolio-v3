@@ -5,6 +5,7 @@
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
   margin-block: 3rem;
 }
@@ -18,7 +19,15 @@
 }
 
 .card:nth-of-type(3) {
-  background-image: linear-gradient(rgba(82, 43, 43, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/California-National-Parks.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/California-National-Parks.png?raw=true');
+}
+
+.card:nth-of-type(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Work-Day-Scheduler_1.png?raw=true');
+}
+
+.card:nth-of-type(5) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Coding-Quiz_1.png?raw=true');
 }
 
 @media screen and (max-width: 1200px) {
