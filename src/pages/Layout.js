@@ -6,12 +6,17 @@ const Layout = () => {
   return (
     <>
       <div className="content-wrapper">
+
+        <div className="header-spacer"></div>
+
         <header>
+          
           <ul className="brand">
             <li>
               <Link to="/">Ž</Link>
             </li>
           </ul>
+
           <nav>
             <ul>
               <li id="homeLink">
@@ -31,11 +36,15 @@ const Layout = () => {
               </li>
             </ul>
           </nav>
+
         </header>
 
         <Outlet />
 
         <Footer />
+
+        <script src="https://kit.fontawesome.com/8b86f38d3d.js" crossorigin="anonymous"></script>
+
       </div>
     </>
   )
