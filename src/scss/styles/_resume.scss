@@ -14,4 +14,6 @@ section > .resume {
     border: none;
     margin-inline: 10%;
     background-color: white;
+    border-radius: $base-border-radius;
+    box-shadow: $base-box-shadow;
 }

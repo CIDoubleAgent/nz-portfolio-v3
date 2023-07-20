@@ -244,6 +244,8 @@ section > .resume {
   border: none;
   margin-inline: 10%;
   background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 .contact-image {
@@ -264,7 +266,7 @@ section > .resume {
   background: rgba(0, 0, 0, 0.75);
   width: 55rem;
   height: 30rem;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
