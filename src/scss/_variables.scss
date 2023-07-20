@@ -3,10 +3,18 @@ $font-primary: #FAECE2;
 $font-secondary: rgb(0, 201, 201);
 $font-accent: rgb(217, 255, 81);
 
+// font sizes
+$base-font-size: calc(.75rem + .75vw);
+$header-font-size: calc(2rem + 2vw);
+$brand-font-size: calc($base-font-size * 2);
+$link-font-size: 1rem;
+$base-line-height: 1.6;
+
 // spacing
 $base-padding: 1em;
 $base-margin: 75rem;
 $nav-spacing: 1.25rem;
+$header-spacing: calc($base-font-size * 3);
 
 // borders
 $base-border-color: #4aa2a2;
@@ -16,10 +24,3 @@ $base-border-radius: 10px;
 
 // box shadow
 $base-box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
-
-// font sizes
-$base-font-size: calc(.75rem + .75vw);
-$header-font-size: calc(2rem + 2vw);
-$brand-font-size: calc($base-font-size * 2);
-$link-font-size: 1rem;
-$base-line-height: 1.6;
