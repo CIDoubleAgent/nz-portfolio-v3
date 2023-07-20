@@ -1,8 +1,17 @@
 
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: calc($base-font-size * 3);
+  padding-inline: 4em;
+  width: 100%;
+  background: rgb(0, 0, 0, .65);
+}
+
+.header-spacer {
+  font-size: $base-font-size;
   height: calc($base-font-size * 3);
 }
 
@@ -39,9 +48,6 @@ nav a {
 .brand a {
   font-size: $brand-font-size;
   color: $font-accent;
-  // background: rgba(0, 0, 0, 0.75);
-  padding-inline: 1em;
-  border-radius: 5px;
 }
 
 .active {
