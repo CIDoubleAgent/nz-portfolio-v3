@@ -22,21 +22,22 @@ class Portfolio extends Component {
 
               <p>
                 {projectDetail.description}
+
+                <ul>
+                  <li>
+                    <a href={projectDetail.deployedLink} target='_blank' rel="noreferrer">
+                      Deployed Site
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href={projectDetail.repoLink} target='_blank' rel="noreferrer">
+                      Repository
+                    </a>
+                  </li>
+                </ul>
+
               </p>
-
-              <ul>
-                <li>
-                  <a href={projectDetail.deployedLink} target='_blank' rel="noreferrer">
-                    Deployed Site
-                  </a>
-                </li>
-
-                <li>
-                  <a href={projectDetail.repoLink} target='_blank' rel="noreferrer">
-                    Repository
-                  </a>
-                </li>
-              </ul>
             </article>
           })}
         </article>
