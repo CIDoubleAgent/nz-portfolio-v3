@@ -3,11 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: $font-secondary;
     width: 100%;
 }
 
 .footer ul {
-    color: $accent-secondary;
     list-style: none;
     display: flex;
     justify-content: center;

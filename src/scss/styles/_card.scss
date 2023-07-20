@@ -1,5 +1,4 @@
 .card {
-  // margin-inline: auto;
   box-shadow: $base-box-shadow;
   border-radius: 8px;
   padding: $base-padding;
@@ -7,9 +6,10 @@
   background-size: cover;
   background-position: 50% 50%;
   overflow: hidden;
-  // height: 25rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   // filter: grayscale(100%);
   // transition: filter 300ms;
   max-width: 30rem;
@@ -22,11 +22,19 @@
 // }
 
 .card h2 {
-  color: $accent-secondary;
+  color: $font-primary;
+  align-self: flex-start;
+}
+
+.card h2,
+.card p {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .card a {
-  color: $accent-secondary;
+  color: $font-accent;
 }
 
 .spacer {
@@ -34,7 +42,8 @@
 }
 
 .card ul {
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 1rem;
 }

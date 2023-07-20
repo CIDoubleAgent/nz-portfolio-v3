@@ -9,6 +9,7 @@ header {
 nav {
   display: flex;
   height: 100%;
+  margin-left: $nav-spacing;
 }
 
 nav ul {
@@ -37,16 +38,18 @@ nav a {
 
 .brand a {
   font-size: $brand-font-size;
-  color: $accent-secondary;
-  margin-right: $nav-spacing;
+  color: $font-accent;
+  // background: rgba(0, 0, 0, 0.75);
+  padding-inline: 1em;
+  border-radius: 5px;
 }
 
 .active {
   margin-top: 0;
-  border-top: inset 3px $accent-secondary;
-  color: $accent-secondary;
+  border-top: inset 3px $font-accent;
+  color: $font-secondary;
 }
 
 nav li:hover {
-  color: $accent-secondary;
+  color: $font-accent;
 }
