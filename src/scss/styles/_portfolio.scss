@@ -6,6 +6,7 @@
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   gap: 3rem;
   margin-block: 3rem;
 }
@@ -28,10 +29,4 @@
 
 .card:nth-of-type(5) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Coding-Quiz_1.png?raw=true');
-}
-
-@media screen and (max-width: 1200px) {
-  .portfolio {
-    flex-direction: column;
-  }
 }
