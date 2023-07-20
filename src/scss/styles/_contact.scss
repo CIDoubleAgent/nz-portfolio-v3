@@ -24,8 +24,13 @@
   font-size: calc($base-font-size * 2.5);
   margin-bottom: 2rem;
   margin-block: 0;
+  color: $font-secondary;
 }
 
-.contact p {
+.contact a {
   font-size: calc($base-font-size * 1.5);
+}
+
+.contact a:hover {
+  color: $font-accent;
 }

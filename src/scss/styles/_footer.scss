@@ -17,3 +17,7 @@
 .footer li {
   padding: $base-padding;
 }
+
+.footer li:hover {
+    color: $font-accent;
+}

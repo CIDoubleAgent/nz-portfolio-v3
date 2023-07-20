@@ -22,8 +22,12 @@
 // }
 
 .card h2 {
-  color: $font-primary;
+  color: $font-secondary;
   align-self: flex-start;
+}
+
+.card p {
+  width: 100%;
 }
 
 .card h2,
@@ -34,6 +38,10 @@
 }
 
 .card a {
+  color: $font-secondary;
+}
+
+.card a:hover {
   color: $font-accent;
 }
 
