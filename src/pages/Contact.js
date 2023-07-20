@@ -6,9 +6,10 @@ const Contact = () => {
       <div className='contact-image background-image'></div>
 
       <div className='contact'>
-        <h1>Contact me at</h1>
-        <p>NickZ51dev@gmail.com</p>
-
+        <div>
+          <h1>Contact me at</h1>
+          <p>NickZ51dev@gmail.com</p>
+        </div>
       </div>
     </section>
   )

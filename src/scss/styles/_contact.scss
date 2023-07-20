@@ -3,20 +3,25 @@
 }
 
 .contact {
-  position: fixed;
-  left: 26%;
-  top: 26%;
-  padding: $base-padding;
-  color: $accent-secondary;
-  // transform: translate(35%, -35vh) rotate(-15deg);
-  transform: rotate(-15.5deg);
-  font-style: italic;
+  display: flex;
+  justify-content: center;
+  color: $font-primary;
+}
+
+.contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10em 15%;
+  border-radius: 15px;
 }
 
 .contact h1 {
-  font-size: calc($base-font-size * 2);
+  font-size: calc($base-font-size * 2.5);
+  margin-bottom: 2rem;
 }
 
 .contact p {
-  font-size: $base-font-size;
+  font-size: calc($base-font-size * 1.75);
 }
