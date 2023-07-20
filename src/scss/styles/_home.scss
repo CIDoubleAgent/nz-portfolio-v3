@@ -7,11 +7,10 @@
 }
 
 .hero h1::first-letter {
-    font-size: calc($header-font-size * 2);
-    font-style: italic;
-    color: $accent-secondary;
+    color: $font-accent;
 }
 
 .hero p {
     font-size: $base-font-size;
+    color: $font-secondary;
 }
