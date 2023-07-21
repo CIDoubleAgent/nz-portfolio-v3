@@ -1,14 +1,13 @@
 .portfolio-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/src/images/background-images/keyboard_dot-world-grey_1.jpg');
-  // background-repeat: repeat-x;
 }
 
 .portfolio {
+  //convert to grid
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 3rem;
-  margin-block: 3rem;
 }
 
 .card:first-of-type {

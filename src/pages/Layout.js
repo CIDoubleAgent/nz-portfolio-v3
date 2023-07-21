@@ -1,9 +1,6 @@
 import { Outlet, Link, NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 
-// import {  } from "@fortawesome/free-brands-svg-icons";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 const Layout = () => {
 
   return (
