@@ -288,7 +288,7 @@ section > .resume {
   align-items: center;
   background: rgba(0, 0, 0, 0.75);
   font-size: calc(0.75rem + 0.75vw);
-  width: 25em;
+  width: 30em;
   height: 15em;
   border-radius: 10px;
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
