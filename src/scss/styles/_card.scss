@@ -1,7 +1,6 @@
 .card {
   box-shadow: $base-box-shadow;
-  border-radius: 8px;
-  padding: $base-padding;
+  border-radius: 12px;
   height: 100%;
   background-size: cover;
   background-position: 50% 50%;
@@ -12,9 +11,8 @@
   justify-content: space-between;
   // filter: grayscale(100%);
   // transition: filter 300ms;
-  max-width: 30rem;
-  width: 100%;
-  height: auto;
+  width: 34rem;
+  height: 30rem;
 }
 
 // .card:hover {
@@ -26,15 +24,10 @@
   align-self: flex-start;
 }
 
-.card p {
-  width: 100%;
-}
-
-.card h2,
-.card p {
+.project-info {
   background: rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
   padding: 10px;
+  width: 100%;
 }
 
 .card a {
@@ -46,12 +39,16 @@
 }
 
 .spacer {
-  height: 15rem;
+  height: 20rem;
 }
 
 .card ul {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 1rem;
+}
+
+.card ul li:first-child {
+  margin-right: 3em;
 }

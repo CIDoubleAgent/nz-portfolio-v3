@@ -66,8 +66,7 @@ p {
 
 .card {
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
-  border-radius: 8px;
-  padding: 1em;
+  border-radius: 12px;
   height: 100%;
   background-size: cover;
   background-position: 50% 50%;
@@ -76,9 +75,8 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 30rem;
-  width: 100%;
-  height: auto;
+  width: 34rem;
+  height: 30rem;
 }
 
 .card h2 {
@@ -86,15 +84,10 @@ p {
   align-self: flex-start;
 }
 
-.card p {
-  width: 100%;
-}
-
-.card h2,
-.card p {
+.project-info {
   background: rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
   padding: 10px;
+  width: 100%;
 }
 
 .card a {
@@ -106,14 +99,18 @@ p {
 }
 
 .spacer {
-  height: 15rem;
+  height: 20rem;
 }
 
 .card ul {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 1rem;
+}
+
+.card ul li:first-child {
+  margin-right: 3em;
 }
 
 header {
@@ -227,8 +224,9 @@ section > .about-card {
 
 .portfolio {
   display: flex;
+  grid-template: repeat(2, 1fr)/repeat(3, 1fr);
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 3rem;
 }
 

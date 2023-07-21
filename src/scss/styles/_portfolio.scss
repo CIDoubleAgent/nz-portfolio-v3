@@ -5,8 +5,9 @@
 .portfolio {
   //convert to grid
   display: flex;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 3rem;
 }
 

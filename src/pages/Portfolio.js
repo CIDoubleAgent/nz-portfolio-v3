@@ -14,14 +14,13 @@ class Portfolio extends Component {
           {ProjectData.map((projectDetail) => {
             return <article className='card' key={projectDetail.id}>
 
-              <h2>
-                {projectDetail.title}
-              </h2>
-
               <div className='spacer'></div>
 
-              <p>
-                {projectDetail.description}
+              <div className='project-info'>
+
+                <h2>{projectDetail.title}</h2>
+
+                <p>{projectDetail.description}</p>
 
                 <ul>
                   <li>
@@ -36,8 +35,9 @@ class Portfolio extends Component {
                     </a>
                   </li>
                 </ul>
+              
+              </div>
 
-              </p>
             </article>
           })}
         </article>
