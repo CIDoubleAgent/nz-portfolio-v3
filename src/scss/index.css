@@ -341,10 +341,11 @@ section > .about-card {
   justify-content: flex-end;
   width: 100%;
   font-size: calc((0.75rem + 0.75vw) * 2);
+  padding: 0 1rem 0.5rem 0;
 }
 
-.footer li {
-  padding: 0 0.5em 0.25em 1em;
+.footer li:first-child {
+  margin-right: 1rem;
 }
 
 .footer li:hover {
