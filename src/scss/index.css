@@ -19,7 +19,7 @@ code {
 }
 
 section {
-  margin-block: 1rem;
+  margin-block: 3rem;
   max-width: 120rem;
   padding-inline: 3em;
   justify-self: center;
@@ -121,7 +121,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: calc((0.75rem + 0.75vw) * 3);
+  height: calc((0.75rem + 0.75vw) * 4.5);
   padding-inline: 4em;
   width: 100%;
   background: rgba(0, 0, 0, 0.65);
@@ -129,7 +129,7 @@ header {
 
 .header-spacer {
   font-size: calc(0.75rem + 0.75vw);
-  height: calc((0.75rem + 0.75vw) * 3);
+  height: calc((0.75rem + 0.75vw) * 4.5);
 }
 
 nav {
@@ -139,7 +139,7 @@ nav {
 }
 
 nav ul {
-  font-size: calc(0.75rem + 0.75vw);
+  font-size: calc((0.75rem + 0.75vw) * 1.1);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -162,7 +162,7 @@ nav a {
 }
 
 .brand a {
-  font-size: calc((0.75rem + 0.75vw) * 2);
+  font-size: calc((0.75rem + 0.75vw) * 3);
   color: rgb(217, 255, 81);
 }
 
@@ -230,7 +230,6 @@ section > .about-card {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 3rem;
-  margin-block: 3rem;
 }
 
 .card:first-of-type {
@@ -263,7 +262,7 @@ section > .resume {
 }
 
 .resume iframe {
-  width: 60rem;
+  width: 72rem;
   height: 70vh;
   border: none;
   margin-inline: 10%;
@@ -288,8 +287,9 @@ section > .resume {
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.75);
-  width: 55rem;
-  height: 30rem;
+  font-size: calc(0.75rem + 0.75vw);
+  width: 25em;
+  height: 15em;
   border-radius: 10px;
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
 }
@@ -320,13 +320,13 @@ section > .resume {
 .footer ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
-  font-size: calc(0.75rem + 0.75vw);
+  font-size: calc((0.75rem + 0.75vw) * 2);
 }
 
 .footer li {
-  padding: 1em;
+  padding: 0 0.5em 0.25em 1em;
 }
 
 .footer li:hover {
