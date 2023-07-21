@@ -1,6 +1,9 @@
 import { Outlet, Link, NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 
+// import {  } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const Layout = () => {
 
   return (
@@ -43,7 +46,7 @@ const Layout = () => {
 
         <Footer />
 
-        <script src="https://kit.fontawesome.com/8b86f38d3d.js" crossorigin="anonymous"></script>
+        {/* <script src="https://kit.fontawesome.com/8b86f38d3d.js" crossorigin="anonymous"></script> */}
 
       </div>
     </>
