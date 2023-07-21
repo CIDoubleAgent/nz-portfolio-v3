@@ -14,8 +14,9 @@
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.75);
-  width: 55rem;
-  height:30rem;
+  font-size: $base-font-size;
+  width: 25em;
+  height:15em;
   border-radius: $base-border-radius;
   box-shadow: $base-box-shadow;
 }
