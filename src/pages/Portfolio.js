@@ -11,7 +11,10 @@ class Portfolio extends Component {
         <div className='portfolio-image background-image'></div>
 
         <article className=' portfolio'>
+          
           {ProjectData.map((projectDetail) => {
+            console.log(projectDetail.imageUrl)
+
             return <article className='card' key={projectDetail.id}>
 
               <div className='spacer'></div>
