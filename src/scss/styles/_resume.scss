@@ -19,7 +19,7 @@
     margin-bottom: 1em;
     font-size: $base-font-size;
     color: $font-accent;
-    background-color: rgba(71, 71, 71, 0.75);
+    background: rgba(0, 0, 0, 0.75);
     border-radius: 50px;
     box-shadow: $base-box-shadow;
     border: groove 2px $font-secondary;
@@ -30,7 +30,7 @@
     width: calc($base-font-size * 35);
     height: 37rem;
     border: none;
-    margin-inline: 10%;
+    // margin-inline: 10%;
     background-color: white;
     border-radius: $base-border-radius;
     box-shadow: $base-box-shadow;
