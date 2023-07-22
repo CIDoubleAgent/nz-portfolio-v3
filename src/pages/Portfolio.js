@@ -17,8 +17,6 @@ class Portfolio extends Component {
 
             return <article className='card' key={projectDetail.id}>
 
-              <div className='spacer'></div>
-
               <div className='project-info'>
 
                 <h2>{projectDetail.title}</h2>
