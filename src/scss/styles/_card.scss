@@ -8,11 +8,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   // filter: grayscale(100%);
   // transition: filter 300ms;
   width: 34rem;
-  height: 30rem;
+  height: 25rem;
   border: 2px solid $font-secondary;
 }
 
@@ -20,19 +20,18 @@
 //   filter: grayscale(0%);
 // }
 
-.card h2 {
-  color: $font-secondary;
-  align-self: flex-start;
-}
-
 .project-info {
   background: rgba(0, 0, 0, 0.85);
   padding: 10px;
   width: 100%;
-  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.card h2 {
+  color: $font-secondary;
+  align-self: flex-start;
 }
 
 .card a {
@@ -41,10 +40,6 @@
 
 .card a:hover {
   color: $font-accent;
-}
-
-.spacer {
-  height: 20rem;
 }
 
 .card ul {

@@ -1,5 +1,5 @@
 
-section > .about-card {
+section > .about-wrapper {
   display: flex;
   justify-content: center;
 }
@@ -8,35 +8,35 @@ section > .about-card {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/src/images/background-images/keyboard-cyberboard_1.webp');
 }
 
-.about-card {
+.about-wrapper {
   display: flex;
   align-items: center;
 }
 
-.card-body{
+.about-card{
   background: rgba(0, 0, 0, 0.75);
   border: 2px $font-secondary solid;
   border-radius: 12px;
   box-shadow: $base-box-shadow;
-  padding: 5rem;
+  padding: 50px;
 }
 
-.about-card img {
+.about-wrapper img {
   width: calc(150px + 10vw);
   border-radius: 12px;
-  margin: 0 3rem 1rem 0;
+  margin-right: 3rem;
   box-shadow: $base-box-shadow;
   float: left;
 }
 
-.about-card p {
+.about-wrapper p {
   font-size: $base-font-size;
   line-height: $base-line-height;
   max-width: 60ch;
 }
 
 // @media screen and (width > 650px) {
-//   .card-body {
+//   .about-card {
 //     display: flex;
 //     flex-direction: column;
 //     align-items: center;
