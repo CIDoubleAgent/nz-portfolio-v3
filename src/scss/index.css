@@ -334,14 +334,14 @@ section > .about-card {
   display: flex;
   justify-content: flex-end;
   color: rgb(0, 201, 201);
-  width: 100%;
 }
 
 .footer p {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1.3rem;
+  transform: translate(-50%);
+  padding: 1.5rem;
+  align-self: end;
 }
 
 .footer ul {
