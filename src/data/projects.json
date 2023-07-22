@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Hungry Snake",
     "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true",
-    "description": "A classic snake game built with Javascript. Higher difficulties increase snake speed and growth rate but reward more points.",
+    "description": "A classic snake game built with Javascript.",
     "deployedLink": "https://cidoubleagent.github.io/hungry-snake/",
     "repoLink": "https://github.com/CIDoubleAgent/hungry-snake"
   },
@@ -12,7 +12,7 @@
     "id": 2,
     "title": "Weather Dashboard",
     "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Weather-Dash-2.png?raw=true",
-    "description": "A weather app with current as well as five day forecasts. Displays weather data for a selected city.",
+    "description": "A weather app with current as well as five day forecasts.",
     "deployedLink": "https://cidoubleagent.github.io/weather-dashboard/",
     "repoLink": "https://github.com/CIDoubleAgent/weather-dashboard"
   },
