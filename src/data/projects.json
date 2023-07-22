@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Coding Quiz",
-    "imageUrl": "../",
+    "imageUrl": "https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Coding-Quiz_1.png?raw=true",
     "description": "A quiz designed to test the users basic knowledge.",
     "deployedLink": "https://cidoubleagent.github.io/Coding-Quiz/",
     "repoLink": "https://github.com/CIDoubleAgent/Coding-Quiz"
