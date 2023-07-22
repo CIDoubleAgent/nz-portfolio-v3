@@ -5,12 +5,22 @@ section > .about-card {
 }
 
 .about-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.55)), url('/src/images/background-images/coffeeandcroissants.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/src/images/background-images/keyboard-cyberboard_1.webp');
 }
 
 .about-card {
   display: flex;
   align-items: center;
+}
+
+.card-body{
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
+  border: 2px $font-secondary solid;
+  border-radius: 12px;
+  box-shadow: $base-box-shadow;
+  padding: 1rem;
 }
 
 .about-card img {
