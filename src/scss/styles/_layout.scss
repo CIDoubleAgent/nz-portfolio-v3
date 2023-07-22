@@ -62,11 +62,15 @@ nav li:hover {
 @media (max-width: 600px) {
   header {
     flex-direction: column;
-    height: 6rem;
+    height: 6.5rem;
   }
 
   .header-spacer {
-    height: 7rem;
+    height: 6.5rem;
+  }
+
+  .brand {
+    margin-top: .15rem;
   }
 
   nav {
@@ -81,7 +85,7 @@ nav li:hover {
   nav a {
     font-size: .8rem;
     padding-block: .5rem;
-    padding-inline: .1rem;
+    padding-bottom: .5rem;
     margin: 0 0 3px 0;
   }
 
@@ -95,7 +99,7 @@ nav li:hover {
 
 @media (max-width: 350px) {
   nav ul {
-    // gap: .6rem;
+    gap: .4rem;
   }
 
   nav a {

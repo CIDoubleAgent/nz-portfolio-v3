@@ -15,9 +15,8 @@
   align-items: center;
   background: rgba(0, 0, 0, 0.75);
   font-size: $base-font-size;
-  width: 30em;
-  height:15em;
-  border: 2px $font-secondary solid;
+  padding: 7rem;
+  border: 2px $font-secondary ridge;
   border-radius: $base-border-radius;
   box-shadow: $base-box-shadow;
 }
@@ -35,4 +34,14 @@
 
 .contact a:hover {
   color: $font-accent;
+}
+
+@media (max-width: 600px) {
+  .contact div {
+    padding: 2rem;
+  }
+
+  .contact h1 {
+    font-size: 2rem;
+  }
 }

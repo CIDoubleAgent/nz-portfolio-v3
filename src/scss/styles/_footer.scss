@@ -27,3 +27,15 @@
 .footer li:hover {
     color: $font-accent;
 }
+
+@media (max-width: 450px) {
+  .footer {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer p {
+    position: static;
+    transform: none;
+  }
+}

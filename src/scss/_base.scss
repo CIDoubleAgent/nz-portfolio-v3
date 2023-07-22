@@ -71,3 +71,12 @@ a {
 p {
   max-width: 65ch;
 }
+
+@media (max-width: 600px) {
+  section {
+    padding-inline: 1rem;
+    margin-block: 2rem;
+    overflow: hidden;
+    margin-block: 0;
+  }
+}
