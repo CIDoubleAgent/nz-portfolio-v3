@@ -13,7 +13,6 @@ class Portfolio extends Component {
         <article className=' portfolio'>
           
           {ProjectData.map((projectDetail) => {
-            console.log(projectDetail.imageUrl)
 
             return <article className='card' key={projectDetail.id}>
 
