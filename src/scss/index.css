@@ -210,21 +210,19 @@ section > .about-card {
 }
 
 .card-body {
-  display: flex;
-  align-items: center;
   background: rgba(0, 0, 0, 0.75);
   border: 2px rgb(0, 201, 201) solid;
   border-radius: 12px;
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .about-card img {
-  margin-bottom: 1em;
   width: calc(150px + 10vw);
-  border-radius: 30px;
-  margin-right: 1rem;
+  border-radius: 12px;
+  margin: 0 3rem 1rem 0;
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  float: left;
 }
 
 .about-card p {
