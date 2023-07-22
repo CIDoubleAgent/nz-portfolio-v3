@@ -12,21 +12,41 @@
 }
 
 .card:first-of-type {
-  background-image: url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true');
+}
+
+.card:first-of-type:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/hungry-snake_1.png?raw=true');
 }
 
 .card:nth-of-type(2) {
-  background-image: url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Weather-Dash-2.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Weather-Dash-2.png?raw=true');
+}
+
+.card:nth-of-type(2):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Weather-Dash-2.png?raw=true');
 }
 
 .card:nth-of-type(3) {
-  background-image: url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/California-National-Parks.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/California-National-Parks.png?raw=true');
+}
+
+.card:nth-of-type(3):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/California-National-Parks.png?raw=true');
 }
 
 .card:nth-of-type(4) {
-  background-image: url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Work-Day-Scheduler_1.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Work-Day-Scheduler_1.png?raw=true');
+}
+
+.card:nth-of-type(4):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Work-Day-Scheduler_1.png?raw=true');
 }
 
 .card:nth-of-type(5) {
-  background-image: url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Coding-Quiz_1.png?raw=true');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Coding-Quiz_1.png?raw=true');
+}
+
+.card:nth-of-type(5):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://github.com/CIDoubleAgent/nz-portfolio-v3/blob/main/src/images/project-images/Coding-Quiz_1.png?raw=true');
 }
