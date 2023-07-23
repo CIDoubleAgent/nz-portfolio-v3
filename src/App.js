@@ -12,7 +12,7 @@ import NoPage from "./pages/NoPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/nz-portfolio-v3'>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
