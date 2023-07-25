@@ -8,22 +8,32 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import Footer from "./components/Footer";
+
 
 
 function App() {
   return (
     <BrowserRouter basename='/nz-portfolio-v3'>
+      <div className='content-wrapper'>
+
+        <Header />
+
         <Routes>
-          <Route path="/" element={<Header />}>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="portfolio" element={<Portfolio />} />
-            <Route path="resume" element={<Resume />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="*" element={<NoPage />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+          {/* </Route> */}
         </Routes>
-      </BrowserRouter>
+
+        <Footer />
+
+      </div>
+    </BrowserRouter>
   );
 }
 
