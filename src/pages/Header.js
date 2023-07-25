@@ -1,7 +1,7 @@
 import { Outlet, Link, NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 
-const Layout = () => {
+const Header = () => {
 
   return (
     <>
@@ -50,4 +50,4 @@ const Layout = () => {
   )
 };
 
-export default Layout;
+export default Header;
