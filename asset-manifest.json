@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nz-portfolio-v3/static/css/main.a80151e4.css",
-    "main.js": "/nz-portfolio-v3/static/js/main.c7d45495.js",
+    "main.js": "/nz-portfolio-v3/static/js/main.40cbab79.js",
     "static/js/787.0f322010.chunk.js": "/nz-portfolio-v3/static/js/787.0f322010.chunk.js",
     "static/media/keyboard_modo-2_2.jpg": "/nz-portfolio-v3/static/media/keyboard_modo-2_2.b6c5e9b51dd86d93e93e.jpg",
     "static/media/keyboard-botanical_keycaps.webp": "/nz-portfolio-v3/static/media/keyboard-botanical_keycaps.723a308010741b97bc1c.webp",
@@ -10,11 +10,11 @@
     "static/media/keyboard-cyberboard_1.webp": "/nz-portfolio-v3/static/media/keyboard-cyberboard_1.473933f0fe56fb9431a6.webp",
     "index.html": "/nz-portfolio-v3/index.html",
     "main.a80151e4.css.map": "/nz-portfolio-v3/static/css/main.a80151e4.css.map",
-    "main.c7d45495.js.map": "/nz-portfolio-v3/static/js/main.c7d45495.js.map",
+    "main.40cbab79.js.map": "/nz-portfolio-v3/static/js/main.40cbab79.js.map",
     "787.0f322010.chunk.js.map": "/nz-portfolio-v3/static/js/787.0f322010.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a80151e4.css",
-    "static/js/main.c7d45495.js"
+    "static/js/main.40cbab79.js"
   ]
 }
