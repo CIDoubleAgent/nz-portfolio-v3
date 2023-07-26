@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter basename='/nz-portfolio-v3'>
       <div className='content-wrapper'>

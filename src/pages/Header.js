@@ -1,12 +1,9 @@
-import { Outlet, Link, NavLink } from "react-router-dom";
-// import Footer from "../components/Footer";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
 
   return (
     <>
-      {/* <div className="content-wrapper"> */}
-
         <div className="header-spacer"></div>
 
         <header>
@@ -38,14 +35,6 @@ const Header = () => {
           </nav>
 
         </header>
-
-        <Outlet />
-
-        {/* <Footer /> */}
-
-        {/* <script src="https://kit.fontawesome.com/8b86f38d3d.js" crossorigin="anonymous"></script> */}
-
-      {/* </div> */}
     </>
   )
 };
