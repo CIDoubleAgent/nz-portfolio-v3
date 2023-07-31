@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter basename='/nz-portfolio-v3'>
+    <BrowserRouter>
       <div className='content-wrapper'>
 
         <Header />
