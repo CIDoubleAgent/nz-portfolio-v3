@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./pages/Header";
 import Home from "./pages/Home";
@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter basename='/nz-portfolio-v3'>
+    <Router>
       <div className='content-wrapper'>
 
         <Header />
@@ -33,7 +33,7 @@ const App = () => {
         <Footer />
 
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
