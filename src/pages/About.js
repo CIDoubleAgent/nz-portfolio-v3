@@ -14,7 +14,7 @@ const About = () => {
           </img>
 
           <p>
-            I'm a web developer from Dover New Hampshire. My hobbies include hiking the many beautiful trails and mountains of New Hampshire, playing basketball, wakeboarding, enjoying craft beer, and poking holes in movie plots.
+            I'm a web developer from New Hampshire. My hobbies include hiking the local trails and mountains, playing basketball, wakeboarding, enjoying craft beer, and poking holes in movie plots.
           </p>
         </div>
       </article>
