@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.25972243.css",
-    "main.js": "/static/js/main.f8b57eb3.js",
-    "static/js/787.0f322010.chunk.js": "/static/js/787.0f322010.chunk.js",
-    "static/media/keyboard_modo-2_2.jpg": "/static/media/keyboard_modo-2_2.b6c5e9b51dd86d93e93e.jpg",
-    "static/media/keyboard-botanical_keycaps.webp": "/static/media/keyboard-botanical_keycaps.723a308010741b97bc1c.webp",
-    "static/media/keyboard_dot-world-grey_1.jpg": "/static/media/keyboard_dot-world-grey_1.efdb612c094c3ac63097.jpg",
-    "static/media/clean-setup_1.jpg": "/static/media/clean-setup_1.9690973a4406fdb6b7c9.jpg",
-    "static/media/keyboard-cyberboard_1.webp": "/static/media/keyboard-cyberboard_1.473933f0fe56fb9431a6.webp",
-    "index.html": "/index.html",
-    "main.25972243.css.map": "/static/css/main.25972243.css.map",
-    "main.f8b57eb3.js.map": "/static/js/main.f8b57eb3.js.map",
-    "787.0f322010.chunk.js.map": "/static/js/787.0f322010.chunk.js.map"
+    "main.css": "/nz-portfolio-v3/static/css/main.a80151e4.css",
+    "main.js": "/nz-portfolio-v3/static/js/main.ad0000ac.js",
+    "static/js/787.0f322010.chunk.js": "/nz-portfolio-v3/static/js/787.0f322010.chunk.js",
+    "static/media/keyboard_modo-2_2.jpg": "/nz-portfolio-v3/static/media/keyboard_modo-2_2.b6c5e9b51dd86d93e93e.jpg",
+    "static/media/keyboard-botanical_keycaps.webp": "/nz-portfolio-v3/static/media/keyboard-botanical_keycaps.723a308010741b97bc1c.webp",
+    "static/media/keyboard_dot-world-grey_1.jpg": "/nz-portfolio-v3/static/media/keyboard_dot-world-grey_1.efdb612c094c3ac63097.jpg",
+    "static/media/clean-setup_1.jpg": "/nz-portfolio-v3/static/media/clean-setup_1.9690973a4406fdb6b7c9.jpg",
+    "static/media/keyboard-cyberboard_1.webp": "/nz-portfolio-v3/static/media/keyboard-cyberboard_1.473933f0fe56fb9431a6.webp",
+    "index.html": "/nz-portfolio-v3/index.html",
+    "main.a80151e4.css.map": "/nz-portfolio-v3/static/css/main.a80151e4.css.map",
+    "main.ad0000ac.js.map": "/nz-portfolio-v3/static/js/main.ad0000ac.js.map",
+    "787.0f322010.chunk.js.map": "/nz-portfolio-v3/static/js/787.0f322010.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25972243.css",
-    "static/js/main.f8b57eb3.js"
+    "static/css/main.a80151e4.css",
+    "static/js/main.ad0000ac.js"
   ]
 }
