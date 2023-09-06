@@ -14,6 +14,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: $font-primary;
   background-color: black;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {

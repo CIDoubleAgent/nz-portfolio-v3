@@ -1,5 +1,5 @@
 .card {
-  box-shadow: $base-box-shadow;
+  box-shadow: $base-box-shadow, $decorative-box-shadow;
   border-radius: 12px;
   height: 100%;
   background-size: cover;
@@ -13,7 +13,6 @@
   // transition: filter 300ms;
   width: 34rem;
   height: 25rem;
-  border: 2px ridge $font-secondary;
 }
 
 // .card:hover {

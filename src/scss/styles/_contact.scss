@@ -16,9 +16,8 @@
   background: rgba(0, 0, 0, 0.75);
   font-size: $base-font-size;
   padding: 7rem;
-  border: 2px $font-secondary ridge;
   border-radius: $base-border-radius;
-  box-shadow: $base-box-shadow;
+  box-shadow: $base-box-shadow, $decorative-box-shadow;
 }
 
 .contact h1 {

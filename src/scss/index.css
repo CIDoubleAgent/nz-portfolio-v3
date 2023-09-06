@@ -12,6 +12,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #FAECE2;
   background-color: black;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {
@@ -73,7 +79,7 @@ p {
   }
 }
 .card {
-  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75), inset 0 0 7px rgb(65, 65, 65);
   border-radius: 12px;
   height: 100%;
   background-size: cover;
@@ -85,7 +91,6 @@ p {
   justify-content: flex-end;
   width: 34rem;
   height: 25rem;
-  border: 2px ridge rgb(0, 201, 201);
 }
 
 .project-info {
@@ -138,6 +143,7 @@ header {
   padding-inline: 4em;
   width: 100vw;
   background: rgba(0, 0, 0, 0.65);
+  box-shadow: inset 0 -5px 5px rgb(37, 37, 37);
 }
 
 .header-spacer {
@@ -261,9 +267,8 @@ section > .about-wrapper {
 
 .about-card {
   background: rgba(0, 0, 0, 0.75);
-  border: 2px rgb(0, 201, 201) ridge;
   border-radius: 12px;
-  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75), inset 0 0 7px rgb(65, 65, 65);
   padding: 7rem;
 }
 
@@ -363,14 +368,13 @@ section > .about-wrapper {
 .download-button {
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   margin-bottom: 1em;
   font-size: calc(0.75rem + 0.75vw);
   color: rgb(217, 255, 81);
   background: rgba(0, 0, 0, 0.75);
   border-radius: 50px;
-  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
-  border: groove 2px rgb(0, 201, 201);
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75), inset 0 0 7px rgb(65, 65, 65);
 }
 
 .resume-pdf iframe {
@@ -379,9 +383,8 @@ section > .about-wrapper {
   border: none;
   padding: 1em;
   background-color: white;
-  border: 2px ridge rgb(0, 201, 201);
   border-radius: 10px;
-  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75), inset 0 0 5px rgb(0, 0, 0);
 }
 
 @media (max-width: 800px) {
@@ -417,9 +420,8 @@ section > .about-wrapper {
   background: rgba(0, 0, 0, 0.75);
   font-size: calc(0.75rem + 0.75vw);
   padding: 7rem;
-  border: 2px rgb(0, 201, 201) ridge;
   border-radius: 10px;
-  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75), inset 0 0 7px rgb(65, 65, 65);
 }
 
 .contact h1 {

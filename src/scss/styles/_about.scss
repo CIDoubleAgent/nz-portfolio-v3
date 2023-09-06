@@ -15,9 +15,8 @@ section > .about-wrapper {
 
 .about-card{
   background: rgba(0, 0, 0, 0.75);
-  border: 2px $font-secondary ridge;
   border-radius: 12px;
-  box-shadow: $base-box-shadow;
+  box-shadow: $base-box-shadow, $decorative-box-shadow;
   padding: 7rem;
 }
 
