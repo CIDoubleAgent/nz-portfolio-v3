@@ -24,6 +24,15 @@
     box-shadow: $base-box-shadow, $decorative-box-shadow;
 }
 
+.download-button:hover {
+    cursor: pointer;
+}
+
+.download-button:active {
+    background: $font-accent;
+    color: rgba(0, 0, 0);
+}
+
 .resume-pdf iframe {
     width: calc(32rem + 20vw);
     height: 37rem;

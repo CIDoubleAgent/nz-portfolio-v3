@@ -377,6 +377,15 @@ section > .about-wrapper {
   box-shadow: 1px 3px 7px 0px rgba(0, 0, 0, 0.75), inset 0 0 7px rgb(65, 65, 65);
 }
 
+.download-button:hover {
+  cursor: pointer;
+}
+
+.download-button:active {
+  background: rgb(217, 255, 81);
+  color: rgb(0, 0, 0);
+}
+
 .resume-pdf iframe {
   width: calc(32rem + 20vw);
   height: 37rem;
