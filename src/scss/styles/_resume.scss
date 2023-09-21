@@ -35,28 +35,46 @@
 
 .resume-pdf iframe {
     width: calc(32rem + 20vw);
-    height: 37rem;
+    height: 102rem;
     border: none;
-    padding: 1em;
     background-color: white;
     border-radius: $base-border-radius;
     box-shadow: $base-box-shadow, inset 0 0 5px rgba(0, 0, 0, 1);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .resume-pdf iframe {
         width: 35rem;
+        height: 125rem;
     }
 }
 
 @media (max-width: 600px) {
+
     .download-button {
         margin-block: .5rem;
+        position: fixed;
+        top: 5rem;
     }
 
     .resume-pdf iframe {
+        width: 35rem;
+        height: 130rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 400px) {
+    .resume-pdf iframe {
+        width: 32rem;
+        height: 135rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .resume-pdf iframe {
         width: 30rem;
-        height: 25rem;
-        padding-block: 0;
+        height: 141rem;
     }
 }
